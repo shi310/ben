@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>temp</title>
+</head>
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 166 192">
+        <defs>
+            <style>
+                .cls-1 {
+                    fill: url(#colorMain);
+                    transform-origin: 96px 96px;
+                    animation:fanZhuan 1s linear infinite;
+                }
+    
+                .cls-2 {
+                    fill: url(#colorMain-2);
+                }
+    
+                .cls-3 {
+                    fill: url(#colorMain-3);
+                }
+    
+                .cls-4 {
+                    fill: url(#colorMain-4);
+                }
+    
+                .cls-5 {
+                    fill: url(#colorMain-5);
+                }
+    
+                .cls-6 {
+                    stroke: url(#colorMain-6);
+                    stroke-width:10px;
+                    stroke-dasharray: 0 1000; 
+                    stroke-dashoffset: 1000; 
+                    animation:miao-1 6s forwards infinite;
+                }
+                @keyframes fanZhuan{
+                    0%{transform: rotate(0deg);}
+                    100%{transform: rotate(-360deg);}
+                }
+                @keyframes shunZhuan{
+                    0%{transform: rotate(0deg);}
+                    100%{transform: rotate(360deg);}
+                }
+                @keyframes miao-1{
+                    100%{
+                        stroke-dasharray: 500 0;
+                        stroke-dashoffset: 0;
+                    }
+                }
+                #neiThree{
+                    transform-origin: 96px 96px;
+                    animation:shunZhuan 0.7s linear infinite;
+                }
+            </style>
+            <linearGradient id="colorMain" x1="131" y1="38.67" x2="131" y2="142.88" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#07f1b6" />
+                <stop offset="1" stop-color="#3cc0fe" />
+            </linearGradient>
+            <linearGradient id="colorMain-2" x1="97.36" y1="49.19" x2="44.92" y2="143.42" xlink:href="#colorMain" />
+            <linearGradient id="colorMain-3" x1="88.54" y1="44.28" x2="36.09" y2="138.5" xlink:href="#colorMain" />
+            <linearGradient id="colorMain-4" x1="135.06" y1="70.18" x2="82.62" y2="164.4" xlink:href="#colorMain" />
+            <linearGradient id="colorMain-5" x1="143.89" y1="75.09" x2="91.44" y2="169.31" xlink:href="#colorMain" />
+            <linearGradient id="colorMain-6" x1="121.76" y1="45.93" x2="43.47" y2="186.58" xlink:href="#colorMain" />
+        </defs>
+        <title>loading</title>
+            <path class="cls-1" d="M96,26v6a64,64,0,0,1,0,128v6A70,70,0,0,0,96,26Z" />
+            <g id="neiThree">
+                <path class="cls-2" d="M121.17,51.65a51,51,0,0,0-50.34,0l7.4,13a35.81,35.81,0,0,1,11.88-4.18L96,81.87l5.89-21.36a35.81,35.81,0,0,1,11.88,4.18Z" />
+                <path class="cls-3" d="M81.87,96,60.51,90.11a35.81,35.81,0,0,1,4.18-11.88l-13-7.4a51,51,0,0,0,0,50.34l13-7.4a35.81,35.81,0,0,1-4.18-11.88Z" />
+                <path class="cls-4" d="M113.77,127.31a35.81,35.81,0,0,1-11.88,4.18L96,110.13l-5.89,21.36a35.81,35.81,0,0,1-11.88-4.18l-7.4,13a51,51,0,0,0,50.34,0Z" />
+                <path class="cls-5" d="M140.35,70.83l-13,7.4a35.81,35.81,0,0,1,4.18,11.88L110.13,96l21.36,5.89a35.81,35.81,0,0,1-4.18,11.88l13,7.4A51,51,0,0,0,140.35,70.83Z" />
+            </g>
+            <circle id="test" class="cls-6" cx="96" cy="96" r="80" fill="none"></circle>
+    </svg>
+    <script>
+        window.onload = function() {
+            var path = document.getElementById('test');
+            var length = path.getTotalLength();
+        alert(length);
+        }  
+    </script>
+</body>
+
+</html>

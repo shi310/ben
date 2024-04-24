@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        .middleBox {
+            display: flex;
+            justify-content: center;
+        }
+
+        .leftBox {
+            flex-direction: column;
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .leftTop {
+            height: 32px;
+            width: 19px;
+            margin-right: 4px;
+            transform: skew(-16deg);
+            -webkit-transform: skew(-16deg);
+            -moz-transform: skew(-16deg);
+            -o-transform: skew(-16deg);
+            box-sizing: border-box;
+            border-top: solid 1px #882829;
+            border-right: solid 1px #882829;
+        }
+
+        .leftBottom {
+            height: 35px;
+            width: 14px;
+            margin-top: -1px;
+            transform: skew(-16deg);
+            -webkit-transform: skew(-16deg);
+            -moz-transform: skew(-16deg);
+            -o-transform: skew(-16deg);
+            box-sizing: border-box;
+            border-top: solid 1px #882829;
+            border-right: solid 1px #882829;
+            border-bottom: solid 1px #882829;
+        }
+
+        .rightBox {
+            flex-direction: column;
+            display: flex;
+        }
+
+        .rightTop {
+            height: 28px;
+            width: 14px;
+            transform: skew(-16deg);
+            -webkit-transform: skew(-16deg);
+            -moz-transform: skew(-16deg);
+            -o-transform: skew(-16deg);
+            box-sizing: border-box;
+            border-top: solid 1px #236d87;
+            border-left: solid 1px #236d87;
+            border-bottom: solid 1px #236d87;
+        }
+
+        .rightBottom {
+            height: 39px;
+            width: 18px;
+            margin-left: 4px;
+            margin-top: -1px;
+            transform: skew(-16deg);
+            -webkit-transform: skew(-16deg);
+            -moz-transform: skew(-16deg);
+            -o-transform: skew(-16deg);
+            box-sizing: border-box;
+            border-left: solid 1px #236d87;
+            border-bottom: solid 1px #236d87;
+        }
+
+        .teamMainBox {
+            width: 100%;
+            height: 66px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .teamLeftBox {
+            width: 100%;
+            height: 66px;
+            box-sizing: border-box;
+            border-bottom: solid 1px #882829;
+            border-top: solid 1px #882829;
+            border-left: solid 1px #882829;
+            display: flex;
+            padding-left: 5px;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom-left-radius: 4px;
+            border-top-left-radius: 4px;
+        }
+
+        .teamRightBox {
+            width: 100%;
+            height: 66px;
+            box-sizing: border-box;
+            border-bottom: solid 1px #236d87;
+            border-top: solid 1px #236d87;
+            border-right: solid 1px #236d87;
+            display: flex;
+            padding-right: 5px;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom-right-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+
+        .tianBUleft {
+            width: 8px;
+            height: 66px;
+            border-bottom: solid 1px #882829;
+            box-sizing: border-box;
+            border-top: solid 1px #882829;
+            margin-right: -5px;
+        }
+
+        .tianBURight {
+            width: 8px;
+            height: 66px;
+            border-bottom: solid 1px #236d87;
+            box-sizing: border-box;
+            border-top: solid 1px #236d87;
+            margin-left: -6px;
+        }
+
+        .teamImgLeft,.teamImgRight {
+            width: 60px;
+            height: 60px;
+            background: #882829;
+        }
+        .numAndname{
+            display: flex; flex-direction: column; justify-content: space-between; height: 85%;/*这个高度控制赔率和队伍名称的间距*/
+        }
+        .numAndnameLeft{
+            align-items: flex-end;
+        }
+        .peiLV{
+            font: 28px arial; font-weight: bolder;
+        }
+        .teamName{
+            font: 12px arial;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="teamMainBox">
+        <div class="teamLeftBox">
+            <div class="teamImgLeft"></div>
+            <!--左边的队伍logo-->
+            <div class="numAndname numAndnameLeft">
+                <!--赔率和队伍名称-->
+                <span class="peiLV">2.13</span>
+                <span class="teamName">队伍的名称</span>
+            </div>
+        </div>
+        <div class="middleBox">
+            <!--中心异形部分的最外层-->
+            <div class="tianBUleft">
+
+            </div>
+            <div class="leftBox">
+                <!--左边-->
+                <div class="leftTop"></div>
+                <!--左上-->
+                <div class="leftBottom"></div>
+                <!--左下-->
+            </div>
+            <div class="rightBox">
+                <!--右边-->
+                <div class="rightTop"></div>
+                <!--右上-->
+                <div class="rightBottom"></div>
+                <!--右下-->
+            </div>
+            <div class="tianBURight teamBox"></div>
+        </div>
+        <div class="teamRightBox">
+            <div class="numAndname">
+                <!--赔率和队伍名称-->
+                <span class="peiLV">2.13</span>
+                <span class="teamName">队伍的名称</span>
+            </div>
+            <div class="teamImgRight"></div>
+            <!--右边的队伍logo-->
+
+        </div>
+    </div>
+
+</body>
+
+</html>

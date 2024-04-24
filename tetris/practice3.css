@@ -1,0 +1,160 @@
+/* 窗口居中 */
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font: 13px 微软雅黑;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* 游戏外框 */
+#gameBox {
+    padding: 2px 5px 5px 2px;
+    background: #eeeeee;
+    border: 1px solid #1f1f1f;
+}
+
+/* 下一个图形的提示框 */
+#nextBox {
+    background: #eeeeee;
+    margin-top: 10px;
+}
+
+/* 得分框 */
+#infoBox {
+}
+
+/* 方块的样式 */
+.none, .done, .ing {
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-left: 3px;
+    border-radius: 1px;
+
+}
+
+.none {
+    border: solid 1px #dddddd;
+    background: #eeeeee;
+}
+
+.ing{
+    border: solid 1px #AE0000;
+    background: #f1bec2;
+}
+
+.done {
+    border: solid 1px #1f1f1f;
+    background: gray;
+}
+
+.newNodeChild {
+    width: 12px;
+    height: 12px;
+    background: #dddddd;
+    border-radius: 1px;
+}
+.newNodeTr{
+    height: 20px;
+    margin-top: 3px;
+}
+#gameBody{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+#textBox{
+    float: left;
+    margin-left: 15px;
+}
+.numBox{
+    margin-top: 10px;
+    text-align: right;
+    font: 18px arial;
+    color: #1f1f1f;
+    width: 83px;
+    height: 26px;
+    border: 1px solid #cccccc;
+    background: none;
+    padding-right: 6px;
+}
+#bodyBox{
+    width: 360px;
+    height: 490px;
+    box-sizing: border-box;
+    border: solid 3px #cccccc;
+    background: #eeeeee;
+}
+#bodyArt{
+    width: 360px;
+    height: 2px;
+    background: red;
+}
+#bodyButton{
+    width: 360px;
+    height: 130px;
+    border: solid 3px #cccccc;
+    box-sizing: border-box;
+    background: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#directionBox{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.directionBox{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.directionButton{
+    width:36px;
+    height: 36px;
+    border-radius: 5px;
+}
+#controlBox{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    border-left: solid 1px #cccccc;
+    border-right: solid 1px #cccccc;
+}
+.controlButton{
+    width:40px;
+    height: 20px;
+    margin-top: 10px;
+}
+#rotateBox{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#buttonRotate{
+    width:80px;
+    height: 80px;
+    border-radius: 40px;
+}

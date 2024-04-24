@@ -1,0 +1,40 @@
+.Body2{width: 100%}/*中层主体100%*/
+/*头部*/
+.HeadBox2{width: 100%} /*头部里层的框架 默认情况下是1440px，当浏览器尺寸小于1440时，宽度变成100%*/
+.HeadBody div{width: 80%} /*导航栏菜单的总体宽度*/
+.LogoBox1{width: 20%; justify-content: flex-start} /*logo总体宽度*/
+
+/*主体 PC-1*/
+.Part1 .BodyChild{flex-direction: column}
+.Part1 img{margin-top: 100px}
+
+/*Part-3*/
+.Part3 .BodyChild{flex-wrap: wrap; width: 90%; margin-bottom: 150px; margin-top: 50px}
+.Part3 .Flex_SC:last-child{margin-top: 50px}
+
+/*Part-5*/
+.Part5{margin-top: 50px}
+
+/*安全性页面的css*/
+.AnquanBody{background: #ffffff; padding-top: 0px; padding-bottom: 0px}
+.AnquanBody .BodyChild{padding-top: 20px; padding-bottom: 20px}
+.AnquanBody .BodyChild .Child{width:100%; padding-bottom: 10px; padding-top: 10px}
+.AnquanBody .Child4{flex-direction: column}
+.AnquanBody .BodyChild .Child2 .importantText{text-align: left; width: 100%}
+.AnquanBody .BodyChild .Child2 .normalText{text-align: left; width:100%}
+.AnquanBanner{height: 300px}
+
+.PartDownloadBanner .Body2{height: 400px; background-size: 400px auto}
+.PartDownload{margin-top: 30px}
+.PartDownload .BodyChild > div{width: 49%;  height: 800px}
+.PartDownload .MobileDown{width: 80%; margin-top: 60px; margin-bottom: 60px}
+.PartDownload .DownloadPart2 > img{margin-top: 60px; margin-bottom: 60px}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*联系我们页面的css*/
+.Lianxi{padding-top: 0px; padding-bottom: 0px}  /*联系我们页面的总背景，以及上下的间距*/
+.Lianxi .importantText{margin-top: 30px}
+.Lianxi .Body2{padding-top: 50px; padding-bottom: 50px; box-shadow: none}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+

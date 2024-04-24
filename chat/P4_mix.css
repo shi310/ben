@@ -1,0 +1,130 @@
+.Body2{width: 100%}/*中层主体100%*/
+/*手机屏幕布局*/
+/*宽度小于750的时候调用*/
+.P4_H1{font: 36px sans-serif; font-weight: lighter}
+
+/*文本样式*/
+.smallText{font: 14px sans-serif; text-align: center; width: 70%; margin-bottom: 20px; color: #2b2c33; font-weight: lighter}
+.importantText{font: 30px sans-serif; font-weight: lighter; color: #2b2c33; text-align: center;width: 70%;}
+.normalText{font: 18px sans-serif; text-align: center; width: 70%; margin-top: 20px; margin-bottom: 20px; color: #2b2c33}
+
+/*头部*/
+.HeadBox2{width: 100%}/*头部里层的框架 默认情况下是1440px，当浏览器尺寸小于750时，宽度变成100%*/
+.HeadBox .Logo{width: 36px} /*手机端非首页 头部logo大小*/
+.HeadBox span{font-size: 18px; margin-left: 6px} /*手机端非首页 头部logo大小*/
+.HeadBody div,.HeadBody a{display: none}/*隐藏logo和logo文字*/
+#iconZixun{display: block}/*显示资讯的按钮*/
+#iconZixun:hover{color: #fdff9c}/*资讯按钮的鼠标滑动样式*/
+.HeadBox{height: 50px}/*导航的宽度降为50px*/
+.HeadChanpinGongneng a{display: flex}
+.HeadChanpinGongneng{height: 60px;}
+
+/*主体*/
+.BodyMobile{display: flex;  margin-top: 70px}/*显示手机端第一屏*/
+.BodyMobile div img:last-child{width: 85%; margin-top: 8%; margin-bottom: 5%} /*手机端第一屏的图片，限定其宽度*/
+
+/*主体 PC-1*/
+.Part1{display: none}
+
+/*Part-2*/
+.Part2{height: 360px}
+
+/*Part-3*/
+.Part3 .BodyChild{flex-direction: column; justify-content: center; height:auto; margin-top: 50px; margin-bottom: 50px} /*第三部分主体的布局方式*/
+.Part3 .BodyChild .Flex_SC{margin-top: 50px} /*子项目的上边距*/
+.Part3 .BodyChild .Flex_SC:first-child{margin-top: 0} /*第一个子项目的上边距*/
+.Part3 .BodyChild div{width: 100%}/*单个图片项目的宽度*/
+.Part3 img{border-radius: 0px;}/*图片的大小*/
+
+
+/*Part-4*/
+.Part4 .BodyChild{flex-direction: column; height: auto}
+.Part4 .BodyChild .Flex_SE, .Part4 .BodyChild .Flex_SC{width: 100%; padding-top: 30px} /*上下的box设定宽度和背景颜色*/
+.Part4 .BodyChild .Flex_SC{padding-bottom: 30px}
+.Part4 img{width: 230px}/*图片宽度*/
+
+/*Part-5*/
+.Part5{margin-top: 0}
+.Part5 .BodyChild{flex-direction: column} /*让底部的导航菜单平均分布*/
+.Part5 .Child{width: 80%} /*底部导航栏分成两个部分，对每个部分进行设定*/
+.Part5 .Child:last-child{margin-left: 0} /*底部右侧导航栏的左边距*/
+
+/*Part-6*/
+.Part6 a{margin-left: 4%} /*对底部导航栏的链接字体做样式*/
+
+/*产品功能页面的第一部分*/
+.PartChanpin1 .BodyChild div{width: 100%; margin-top: 0} /*去除第一部分的子元素上边距*/
+.PartChanpin1 .BodyChild{height: auto; width: 100%} /*第一部分整体高度自适应*/
+.PartChanpin1{margin-top: 60px;}/*第一部分整体的上边距*/
+.PartChanpin1 .BodyChild img{width: 230px}
+.PartChanpin1 .normalText{width: 90%}
+.PartChanpin1 .Chanpin5 img{width: 100px}
+.PartChanpin1 .BodyChild > div{height: auto; padding-top: 20px; padding-bottom: 20px}
+.PartChanpin1 .BodyChild > div:last-child , .PartChanpin1 .BodyChild .Chanpin3{padding-top: 0}
+
+/*产品功能页面的banner*/
+.PartChanpinBanner{display: none}
+
+/*下载页面的css*/
+.PartDownload{margin-top: 0}
+.PartDownload .BodyChild{flex-direction: column; width: 100%}
+.PartDownload .BodyChild div{width: 100%}
+.PartDownload .BodyChild .DownloadPart2{height: 600px;padding-top: 30px; padding-bottom: 30px}
+.PartDownload .DownloadPart2 img{width:240px; margin-top: 30px; margin-bottom: 30px}
+.PartDownloadBanner{margin-top: 60px}
+.PartDownloadBanner .Body2{height: 256px; background: none; flex-direction: column; justify-content: center}
+.PartDownloadBanner .BodyChild{align-items: center}
+.PartDownloadBanner .BodyChild span{text-align: center}
+.PartDownload .BodyChild .DownloadPart1 .MobileDown{flex-direction: column; margin-top: 0; margin-bottom: 20px}
+.PartDownload .BodyChild > div{height: 1200px; padding-top: 30px; padding-bottom: 30px}
+.PartDownload .BodyChild .DownloadPart1 .MobileDown div{width: 130px; margin-top: 20px}
+.PartDownload .MobileDown{height: auto}
+.PartDownload .MobileDown div{height: 350px;}
+.PartDownload .DownloadPart2 div{width: 240px; height: 50px; background: #01e675; border-radius: 25px; color: #ffffff; margin-top: 20px}
+
+#VideBox{width: 230px; height: 230px} /*动画播放区域*/
+
+/*安全性页面的css*/
+.AnquanBody{background: #ffffff; padding-top: 0; padding-bottom: 0}
+.AnquanBody .BodyChild{padding-top: 20px; padding-bottom: 20px}
+.AnquanBody .BodyChild .Child{width:100%; padding-bottom: 0px; padding-top: 0px; flex-direction: column}
+.AnquanBody .BodyChild .Child2 .importantText{text-align: left; width: 100%; margin-top: 0px}
+.AnquanBody .BodyChild .Child2 .normalText{text-align: left; width:100%}
+.AnquanBody .BodyChild .Child3{width: 100%; align-items: center;}
+.AnquanBody .BodyChild .Child3 .importantText{text-align: center; width: 80%}
+.AnquanBody .BodyChild .Child3 .normalText{text-align: center; width:80%}
+.AnquanBanner{margin-top: 60px; height: 200px}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*联系我们页面的css*/
+.Lianxi{padding-top: 0px; padding-bottom: 0px;margin-top: 50px}  /*联系我们页面的总背景，以及上下的间距*/
+.Lianxi .importantText{margin-top: 30px}
+.Lianxi .Body2{padding-top: 20px; padding-bottom: 20px; box-shadow: none}
+.Lianxi .BodyChild > div:first-child{margin-bottom: 10px}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*常见问题页面的css*/
+.PartWenti .importantText{font: 20px sans-serif}
+.PartWenti .Body2 .BodyChild > div:first-child{font: 26px sans-serif; color: #666666}
+.PartWenti .searchBox > div{color: #1cb39b;}
+.PartWenti form{width: 90%; margin: 0; height: 45px;}
+.PartWenti .searchBox{margin-top: 60px}
+.PartWenti .BodyChild{padding-top: 20px; padding-bottom: 50px}
+.PartWenti .searchBox{height: 90px;}
+.PartWenti .searchBox h1, .PartWenti .searchBox div{display: none}
+.PartWenti .BodyChild .Flex_HS{flex-direction: column;justify-content: flex-start; align-items: flex-start}
+.PartWenti .BodyChild > div > div > div{margin-top: 20px; width: 100%}
+.PartWenti .BodyChild > div > div{margin-top: 20px; width: 100%}
+.PartWenti .BodyChild > div > div > div .normalText{box-sizing: border-box; padding-bottom:10px; border-bottom: solid 1px #e7e7e7; width: 100%}
+.PartWenti .BodyChild > div > div > div .normalText:last-child{border: none}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*关于我们页面的css*/
+.AboutUS{margin-top: 60px}
+.AboutUS .Body2{padding: 30px 0px 60px 0px}
+.AboutUS .importantText{width: 90%; margin-top: 20px; margin-bottom: 20px}
+.AboutUS .normalText{width: 90%}
+.AboutUS ._aboutFirst > span{margin-top: 30px} .AboutUS ._aboutFirst > span:first-child{margin: 0} .AboutUS ._aboutFirst > span:last-child{margin-top: 20px}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/

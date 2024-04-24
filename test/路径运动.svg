@@ -1,0 +1,77 @@
+<svg viewBox="0 0 1320 300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <style>
+            /* Main styles */
+            
+            .text {
+                fill: none;
+                stroke-width: 2;
+                stroke-dasharray: 0 300;
+                stroke-dashoffset: 0;
+            }
+            
+            .text:nth-child(3n + 1) {
+                stroke: #F60A0A;
+                animation: stroke 6s  ease-in-out forwards infinite;  
+                animation-direction: alternate;
+            
+            }
+            .text:nth-child(3n + 2) {
+                stroke: #F2FF14;
+                animation: stroke1 6s  ease-in-out forwards infinite;
+                animation-direction: alternate;
+            }
+            
+            .text:nth-child(3n + 3) {
+                stroke: #FB9505;
+                animation: stroke2 6s  ease-in-out forwards infinite;
+                animation-direction: alternate;
+            }
+            
+            
+            @keyframes stroke {
+                100% {
+                stroke-dashoffset: 1000;
+                stroke-dasharray: 80 160;
+                }
+            }
+            
+            @keyframes stroke1 {
+                100% {
+                stroke-dashoffset: 1080;
+                stroke-dasharray: 80 160;
+                }
+            }
+            
+            
+            @keyframes stroke2 {
+                100% {
+                stroke-dashoffset: 1160;
+                stroke-dasharray: 80 160;
+                }
+            }
+            
+            svg {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: #212121;
+                font-size:240px;
+            }
+        </style>
+    </defs>
+
+    <!-- Symbol -->
+    <symbol id="s-text">
+        <text text-anchor="middle" x="50%" y="50%" dy=".35em">
+        亚洲电竞
+        </text>
+    </symbol>  
+    
+    <!-- Duplicate symbols -->
+    <use xlink:href="#s-text" class="text"></use>
+    <use xlink:href="#s-text" class="text"></use>
+    <use xlink:href="#s-text" class="text"></use>
+    
+    
+</svg>

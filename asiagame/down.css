@@ -1,0 +1,105 @@
+.downMain{width: 100%; height: auto; margin-top: 104px;}
+.downChild{width: 1300px; height: auto;} 
+.downPart1{width: 100%; height: auto;}
+.downPart1-left{width: 500px; height: 540px;}
+a{text-decoration: none;}
+.downPart1-left-imgBox1{
+    width: 224px; height: 390px; background: url(images/app2.e5a0104.png) no-repeat center;
+    background-size: auto 100%; -webkit-animation:leftMove 1s;  animation:leftMove 1s;
+}
+.downPart1-left-imgBox2{
+    width: 264px; height: 460px; background: url(images/app1.04a9a4d.png) no-repeat center;
+    background-size: auto 100%; margin-left: -100px; z-index: 99;  -webkit-animation:topMove100 1s;  animation:topMove100 1s;
+}
+.downPart1-left-imgBox3{
+    width: 224px; height: 390px; background: url(images/app3.68f64b3.png) no-repeat center;
+    background-size: auto 100%; margin-left: -100px; -webkit-animation:rightMove 1s;  animation:rightMove 1s;
+}
+.downPart1-right{width: calc(100% - 560px); box-sizing: border-box;}
+.downPart1-right .font-default-16{margin-top: 20px; margin-bottom: 40px;}
+.downPart1-downLoad{width: 100%; height: auto;}
+.downPart1-downLoad-child{width: 228px; height: 255px; background: #22262A; box-sizing: border-box; padding:15px 10px; transition: 0.5s; -webkit-transition: 0.5s;}
+.downPart1-downLoad-child:hover{box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); transition: 0.5s; -webkit-transition: 0.5s;}
+.downPart1-downLoad-child1{animation: torightStrong 0.8s ease-out;}
+.downPart1-downLoad-child2{animation: torightStrong 1s ease-out;}
+.downPart1-downLoad-child3{animation: torightStrong 1.2s ease-out;}
+.downPart1-downLoad-child-header{width: 100%; height: 30px;}
+.downPart1-downLoad-child-header-child{width: 20px; height: 20px;}
+.font-Android{color: rgb(164, 195, 57); font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 0.75rem;}
+.font-html5{color: rgb(227, 78, 36); font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 0.75rem;}
+.domnMa{width: 102px; height: 102px; box-sizing: border-box; border: solid 4px #40474f;}
+.domnMa1{background: url(images/downMa.png) no-repeat center; background-color: #ffffff; background-size: 100%;}
+.domnMa2{background: url(images/downMa2.png) no-repeat center; background-color: #ffffff; background-size: 100%;}
+.domnMa3{background: url(images/downMa3.png) no-repeat center; background-color: #ffffff; background-size: 100%;}
+.downHelp{width: 88px; height: 30px; background: #2e3238; border-radius: 4px;}
+.downButton{width: 88px; height: 30px; background: #289273; border-radius: 4px; margin-left: 10px;}
+.downPart1-downLoad-child a{transition: 0.5s; -webkit-transition: 0.5s;}
+.downPart1-downLoad-child a:hover{background: #c39902; color: #ffffff; transition: 0.5s; -webkit-transition: 0.5s;}
+.downPart1-flex{display: -webkit-box; -webkit-box-pack: justify; -webkit-box-align: center; display: flex; align-items:center; justify-content: space-between;}
+.downPart1-downLoad-flex{display: -webkit-box; -webkit-box-pack: justify; -webkit-box-align: center; display: flex; align-items:center; justify-content: space-between;}
+
+.downPart2{width: 100%; height: auto;}
+.downPart2-header{width: 100%; height: 44px;  border-bottom: solid 1px #303237; box-sizing: border-box;}
+.margin-Left{margin-left: 8px;}
+.downPart2-header-right{width: 200px; height: 100%;}
+.downPart2-header-Line{width: 1px; height: 20px; background: #303237;}
+.downPart2-header-right-Android:hover span{color: #03fcb3;}
+.downPart2-header-right-IOS:hover span{color: #03fcb3;}
+.downPart2-body{width: 100%; height: 400px; margin-top: 20px;}
+.downPart2-body .iconfont{font-size: 2rem; color: #ffffff;}
+.downPart2-helpMain{width: calc(100% - 200px); height: 100%;}
+.downPart2-Min{display: none; width: 100%; height: auto;}
+.downPart2-Max, .downPart2-helpBox{width: 100%; height: auto;}
+
+@media only screen and (min-width: 1228px) and (max-width: 1317px){
+    .downChild{width: 100%;}
+    .downMain{margin-top: 60px;}
+    .downPart1-right{padding-right: 20px; width: calc(100% - 500px);}
+    .downPart2{box-sizing: border-box; padding: 0 20px;}
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1228px){
+    .downChild{width: 100%;}
+    .downMain{margin-top: 60px;}
+    .downPart1-right{width: 730px;}
+    .downPart1-flex{display: -webkit-box; -webkit-box-align: center; -webkit-box-orient: vertical; display: flex; flex-direction: column; align-items:center;}
+    .downPart2{box-sizing: border-box; padding: 0 20px;}
+    .downPart2-helpMain{width: calc(100% - 100px); height: 100%;}
+    .downPart2{margin-top: 40px;}
+}
+
+@media only screen and (min-width: 695px) and (max-width: 750px){
+    .downChild{width: 100%;}
+    .downMain{margin-top: 60px;}
+    .downPart1-right{width: 94%;}
+    .downPart1-flex{display: -webkit-box; -webkit-box-align: center; -webkit-box-orient: vertical; display: flex; flex-direction: column; align-items:center;}
+    .downPart1-downLoad-child{width: 32%;}
+    .downPart2{box-sizing: border-box; padding: 0 20px;}
+    .downPart2-helpMain{width: calc(100% - 100px); height: 100%;}
+    .downPart2-Max{display: none;}
+    .downPart2-Min{display: flex; display: -webkit-box;}
+    .downPart2{margin-top: 40px;}
+}
+
+@media only screen and (max-width: 695px){
+    .downChild{width: 100%;}
+    .downMain{margin-top: 60px;}
+    .downPart1-right{width: 94%;}
+    .downPart1-flex{display: -webkit-box; -webkit-box-align: center; -webkit-box-orient: vertical; display: flex; flex-direction: column; align-items:center;}
+    .downPart1-downLoad-flex{display: -webkit-box; -webkit-box-align: center; -webkit-box-orient: vertical; display: flex; flex-direction: column; align-items:center;}
+    .downPart1-downLoad-child{width: 94%; margin-top: 16px;}
+    .downPart2-helpMain{width: calc(100% - 100px); height: 100%;}
+    .downPart2{box-sizing: border-box; padding: 0 20px;}
+    .downPart2-Max{display: none;}
+    .downPart2-Min{display: flex; display: -webkit-box;}
+    .downPart2{margin-top: 40px;}
+}
+
+/*---------------------------------------------------------------------------------动画区域-----------------------------------------------------------------------*/
+@keyframes torightStrong {
+    0% {transform: translate(1300px,0px); opacity: 0.5;}
+    70% {transform: translate(-40px,0px); opacity: 1;}
+    80% {transform: translate(20px,0px); opacity: 1;}
+    90% {transform: translate(-20px,0px); opacity: 1;}
+    100% {transform: none; opacity: 1;}
+}

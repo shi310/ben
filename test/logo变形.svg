@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+    <defs>
+        <linearGradient id="colorMain_17" x1="42.63" x2="140.62" y1="60.03" y2="15.28" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#07f1b6"/>
+            <stop offset="1" stop-color="#3cc0fe"/>
+        </linearGradient>
+        <linearGradient id="colorMain_17-2" x1="124.44" x2="145.93" y1="106.12" y2="98.96" xlink:href="#colorMain_17"/>
+        <linearGradient id="colorMain_8" x1="583.1" x2="560.44" y1="33.34" y2="218.36" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#03fcb3"/>
+            <stop offset="1" stop-color="#3cc0fe"/>
+        </linearGradient>
+        <linearGradient id="colorMain_8-2" x1="580.85" x2="558.19" y1="33.06" y2="218.09" xlink:href="#colorMain_8"/>
+        <linearGradient id="colorMain_8-3" x1="589.81" x2="567.16" y1="34.16" y2="219.18" xlink:href="#colorMain_8"/>
+        <linearGradient id="colorMain_8-4" x1="334.02" x2="311.36" y1="2.84" y2="187.86" xlink:href="#colorMain_8"/>
+        <linearGradient id="colorMain_8-5" x1="336.45" x2="313.79" y1="3.14" y2="188.16" xlink:href="#colorMain_8"/>
+        <linearGradient id="colorMain_8-6" x1="351.15" x2="328.5" y1="4.94" y2="189.96" xlink:href="#colorMain_8"/>
+        <linearGradient id="colorMain_8-7" x1="376" x2="353.34" y1="7.98" y2="193" xlink:href="#colorMain_8"/>
+        <linearGradient id="colorMain_8-8" x1="388.31" x2="365.66" y1="9.49" y2="194.51" xlink:href="#colorMain_8"/>
+        <linearGradient id="colorMain_8-9" x1="400.74" x2="378.08" y1="11.01" y2="196.03" xlink:href="#colorMain_8"/>
+        <linearGradient id="colorMain_8-10" x1="359.38" x2="336.72" y1="5.94" y2="190.97" xlink:href="#colorMain_8"/>
+        <linearGradient id="colorMain_8-11" x1="282.55" x2="259.9" y1="-3.46" y2="181.56" xlink:href="#colorMain_8"/>
+        <linearGradient id="colorMain_8-12" x1="230.93" x2="208.28" y1="-9.79" y2="175.24" xlink:href="#colorMain_8"/>
+        <linearGradient id="colorMain_8-13" x1="412.96" x2="390.3" y1="12.5" y2="197.53" xlink:href="#colorMain_8"/>
+        <linearGradient id="colorMain_8-14" x1="490.36" x2="467.71" y1="21.98" y2="207.01" xlink:href="#colorMain_8"/>
+    </defs>
+    <title>
+        亚洲电竞logo动画版
+    </title>
+    <g id="图层_2" data-name="图层 2">
+        <g id="图层_1-2" data-name="图层 1">
+            <path style="fill:#c39902">
+                <animate attributeName="d" dur="2s" fill="freeze"
+                    values="M50.1,104.86H87.15c23.36-24.3-16.13-32.2,50.51-56.77C33.55,68.86,67.87,87,50.1,104.86Z;
+                    M0,134.77H37.05C60.41,110.47,118,57.42,184.59,32.86,80.48,53.63,17.77,116.86,0,134.77Z;"/>
+            </path>
+            <path style="fill:url(#colorMain_17)">
+                <animate attributeName="d" dur="2s" fill="freeze"
+                    values="M127.56,5S97.64,7.2,49.24,30.91L78.1,7.5,34,0,0,63l25,6C55.52,40.91,74.89,24.36,127.56,5ZM49.24,30.91l-.25.27h-.08Z;
+                    M144.09,28.94S114.17,31.1,65.76,54.81L94.63,31.4,76.08,0,3.68,122.57l4-3.69C38.17,90.79,91.41,48.26,144.09,28.94ZM65.76,54.81l-.25.27h-.07Z"/>
+            </path>
+            <path style="fill:url(#colorMain_17-2)">
+                <animate attributeName="d" dur="2s" fill="freeze"
+                    values="M155.69,56.64C131.28,70.1,110.61,85.06,97.56,97.83l21.82,36.94h36.31l-34.06-24.65,22.46-19.28C154.71,73.69,141.21,68.14,155.69,56.64Z;
+                    M155.69,56.64C131.28,70.1,110.61,85.06,97.56,97.83l21.82,36.94h36.31l-26-44L116,97.83C126.62,80.68,141.21,68.14,155.69,56.64Z"/>
+            </path>
+            <polygon points="624.42 55.8 613.79 55.8 613.79 47.59 600.53 54.47 600.53 55.8 558.86 55.8 558.86 47.59 546.02 54.26 546.02 55.8 534.98 55.8 534.98 66.43 624.42 66.43 624.42 55.8" style="fill:url(#colorMain_8)"/>
+            <polygon points="619.85 35.6 584.91 35.6 584.91 29.81 573.76 35.6 539.98 35.6 539.98 45.8 619.85 45.8 619.85 35.6" style="fill:url(#colorMain_8-2)"/>
+            <polygon points="602.85 112.52 602.85 101.68 615.15 101.68 621.37 92.84 621.37 72 617.45 72 609.9 82.74 609.9 90.84 550.34 90.84 550.34 82.74 603.48 82.74 611.02 72 538.87 72 538.87 101.68 552.76 101.68 537.66 123.14 551.66 123.14 566.75 101.68 591.38 101.68 591.38 123.14 620.11 123.14 626.52 112.52 602.85 112.52" style="fill:url(#colorMain_8-3)"/>
+            <polygon points="334.51 30.44 321.68 48.69 321.68 53.7 334.51 53.7 334.51 30.44" style="fill:url(#colorMain_8-4)"/>
+            <rect width="12.84" height="22.31" x="321.68" y="60.22" style="fill:url(#colorMain_8-5)"/>
+            <polygon points="348.18 53.7 338.81 53.7 338.81 94.53 348.18 81.21 348.18 53.7" style="fill:url(#colorMain_8-6)"/>
+            <polygon points="364.3 95.78 372.83 83.66 372.83 53.7 364.3 53.7 364.3 95.78" style="fill:url(#colorMain_8-7)"/>
+            <rect width="11.05" height="89.44" x="374.5" y="32.44" style="fill:url(#colorMain_8-8)"/>
+            <polygon points="389.56 93.16 397.98 82.21 397.98 53.7 389.56 53.7 389.56 93.16" style="fill:url(#colorMain_8-9)"/>
+            <polygon points="349.88 97.68 331.97 123.14 345.06 123.14 360.82 100.73 360.82 31.07 349.88 31.07 349.88 97.68" style="fill:url(#colorMain_8-10)"/>
+            <path d="M334.51,89.26H321.68v14.13l-6.43,9.13h-37l22.35-31.93.05-.06V60.22H289.16V87.85l-12.42,17.66v-62h26.73V32.86H228.56c-5.65,0-6.49-3.05-6.49-3.05l-9.62,13.68h26.3v69H218.54c-5.65,0-6.57-3.16-6.57-3.16L202.35,123H318.76l15.75-22.4Zm-69.24,23.26h-15v-69h15Z" style="fill:url(#colorMain_8-11)"/>
+            <polygon points="226.34 60.22 214.87 60.22 214.87 105.26 226.34 88.94 226.34 60.22" style="fill:url(#colorMain_8-12)"/>
+            <rect width="10.94" height="90.81" x="399.65" y="31.07" style="fill:url(#colorMain_8-13)"/>
+            <path d="M477.63,112.52V101.58h32l5.77-8.21v-54h-3.92l-7.55,10.74V64.85h-26.3V50.12h19.88l7.55-10.74H477.63V31.07H466.16v8.31H428.8v62.2h37.36v21.57h65.08l7.47-10.63Zm0-36.83h26.3V90.84h-26.3ZM466.16,90.84H440.27V75.69h25.89Zm0-26H440.27V50.12h25.89Z" style="fill:url(#colorMain_8-14)"/>
+        </g>
+    </g>
+</svg>

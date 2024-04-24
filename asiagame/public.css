@@ -1,0 +1,267 @@
+.flex-H-betweenCenter{display: -webkit-box; -webkit-box-pack: justify; -webkit-box-align: center; display: flex; align-items:center; justify-content: space-between;}
+.flex-H-startCenter{display: -webkit-box; -webkit-box-align: center; display: flex; align-items:center;}
+.flex-H-centerCenter{display: -webkit-box; -webkit-box-align: center; -webkit-box-pack: center; display: flex; align-items:center; justify-content: center;}
+.flex-H-endCenter{display: -webkit-box; -webkit-box-pack: end; -webkit-box-align: center; display: flex; align-items:center; justify-content: flex-end;}
+.flex-H-startEnd{display: -webkit-box; -webkit-box-pack: start; -webkit-box-align: end; display: flex; align-items:flex-end; justify-content: flex-start;}
+.flex-H-betweenEnd{display: -webkit-box; -webkit-box-pack: justify;  -webkit-box-align: end; display: flex; justify-content: space-between; align-items: flex-end;}
+.flex-H-startStart{display: flex; display: -webkit-box;}
+.flex-H-betweenStart{display: -webkit-box; -webkit-box-pack: justify; display: flex; justify-content: space-between;}
+
+.flex-align-slef-end{align-self: flex-end;}
+
+.flex-S-centerStart{display: -webkit-box; -webkit-box-pack: center; -webkit-box-orient: vertical; display: flex; flex-direction: column; justify-content: center;}
+.flex-S-startCenter{display: -webkit-box; -webkit-box-align: center; -webkit-box-orient: vertical; display: flex; flex-direction: column; align-items:center;}
+.flex-S-startStart{display: -webkit-box;  -webkit-box-orient: vertical; display: flex; flex-direction: column;}
+.flex-S-centerCenter{display: -webkit-box; -webkit-box-pack: center; -webkit-box-align: center; -webkit-box-orient: vertical; display: flex; flex-direction: column; align-items:center; justify-content: center;}
+.flex-S-betweenCenter{display: -webkit-box; -webkit-box-pack: justify; -webkit-box-align: center; -webkit-box-orient: vertical; display: flex; flex-direction: column; align-items:center; justify-content: space-between;}
+
+.font-gray{color: #697081; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 0.75rem; }
+.font-main{color: #03fcb3; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 0.75rem; }
+.font-white{color: #ffffff; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 0.75rem; }
+.font-white-32{color: #ffffff; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 2rem; }
+.font-white-16border{color: #ffffff; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 1rem; font-weight: bold;}
+.font-default{color: #b5bdce; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 0.75rem; }
+.font-default-16{color: #b5bdce; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 1rem; }
+.font-teamNameBig{color: #ffffff; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 0.875rem; }
+.font-H1{color: #b5bdce; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 1.128rem; }
+.font-H2{color: #ffffff; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 1.25rem; }
+.font-main-22{color: #03fcb3; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 1.375rem; font-weight: lighter;}
+.font-mian-14{color: #03fcb3; font-family:微软雅黑, Arial, Helvetica, sans-serif; font-size: 0.875rem;}
+
+body{margin: 0; background: #1e2225;}
+
+.headerMiddle, .headerMix{display: none; background: #22262a; position: fixed; top: 0; width: 100%; height: 60px; box-shadow: 0px 4px 4px rgba(0,0,0,0.2); z-index: 999;}
+.headerMiddle a{text-decoration: none;  transition: 0.5s; -webkit-transition: 0.5s;}
+.headerMiddle a:hover{color: #03fcb3; transition: 0.5s; -webkit-transition: 0.5s;}
+.headerMiddle-home{color: #03fcb3;}
+.headerMiddle-agent{color: #03fcb3;}
+.headerMiddle-promotion{color: #03fcb3;}
+.headerMiddle-down{color: #03fcb3;}
+button{display: block; outline: none; border: none;}
+
+.headerMax{width: 100%; height: 60px; border-bottom: solid 1px #303237;  position: fixed; top: 0; background: #22262a; z-index: 999;}
+.headerMax .header-left{width: 35%; height: 100%;}
+.headerMax .header-right{width: 35%; height: 100%;}
+.headerMax .line-long{width: 1px; height: 100%; background: #303237;}
+.headerMax .line-shot{width: 1px; height: 30%; background: #303237;}
+.headerMax .header-child{margin-left: 10px;}
+.headerMax .header-left img{display: block;}
+.headerMax .login-reg{width: 160px; height: 100%; background: #207f63;}
+.headerMax .login-reg-child{margin-left: 10px; margin-right: 10px;}
+.headerMax .header-right-child{margin-right: 10px;}
+.header-hover-login-reg{transition: 0.5s; -webkit-transition: 0.5s; text-decoration: none;  cursor: pointer;}
+.headerMax .header-hover-colorMain:hover{color:#03fcb3; transition: 0.5s; -webkit-transition: 0.5s;}
+.headerMax .header-hover-login-reg:hover{color: #03fcb3; transition: 0.5s; -webkit-transition: 0.5s;}
+
+.headerMix .i-left{font-size: 1.125rem; color: #697081; margin-left: 20px; transition: 0.5s; -webkit-transition: 0.5s; cursor: default;}
+.i-left:hover{color: #03fcb3; transition: 0.5s; -webkit-transition: 0.5s;}
+.headerMix .i-right{font-size: 1.625rem; color: #697081; margin-right: 20px; transition: 0.5s; -webkit-transition: 0.5s; cursor: default;}
+.i-right:hover{color: #03fcb3; transition: 0.5s; -webkit-transition: 0.5s;}
+
+.nav{width: 100%; height: 42px; box-shadow: 0px 4px 4px rgba(0,0,0,0.2); background: rgba(34,38,42,0.98);}
+.nav a{width: 130px; height: 42px; text-decoration: none; transition: 0.5s; -webkit-transition: 0.5s;}
+.nav-home{color:#03fcb3; background: linear-gradient(rgba(3,252,179,0), rgba(3,252,179,0.1)); background: -webkit-linear-gradient(rgba(3,252,179,0), rgba(3,252,179,0.1)); border-bottom: solid 1px #03fcb3;}
+.nav-agent{color:#03fcb3; background: linear-gradient(rgba(3,252,179,0), rgba(3,252,179,0.1)); background: -webkit-linear-gradient(rgba(3,252,179,0), rgba(3,252,179,0.1)); border-bottom: solid 1px #03fcb3;}
+.nav-promotion{color:#03fcb3; background: linear-gradient(rgba(3,252,179,0), rgba(3,252,179,0.1)); background: -webkit-linear-gradient(rgba(3,252,179,0), rgba(3,252,179,0.1)); border-bottom: solid 1px #03fcb3;}
+.nav-down{color:#03fcb3; background: linear-gradient(rgba(3,252,179,0), rgba(3,252,179,0.1)); background: -webkit-linear-gradient(rgba(3,252,179,0), rgba(3,252,179,0.1)); border-bottom: solid 1px #03fcb3;}
+.nav a:hover{color:#03fcb3; transition: 0.5s; -webkit-transition: 0.5s;}
+.nav a:active{background: linear-gradient(rgba(3,252,179,0), rgba(3,252,179,0.1)); background: -webkit-linear-gradient(rgba(3,252,179,0), rgba(3,252,179,0.1)); border-bottom: solid 1px #03fcb3;}
+.header-button{width: 72px; height: 27px; background: #207f63; border-radius: 2px; transition: 0.5s; -webkit-transition: 0.5s;}
+.header-button:hover{background: #c39902; box-shadow: 0px 4px 8px rgba(0,0,0,0.5); transition: 0.5s; -webkit-transition: 0.5s;}
+.header-kefu{margin-left: 40px;}
+.header-login{margin-left: 4px; margin-right: 16px;}
+.navMax{position: fixed; top: 61px; z-index: 999;}
+
+.footer{background: #212528; width: 100%; height: 300px; margin-top: 48px;}
+.footer-child{width: 1300px; height: 100%;}
+.footer-head{width: 100%; height: 60px;}
+.footer-head-onlinePeson div:nth-child(2){margin-left: 16px;}
+.footer-Line{width: 100%; height: 1px; background: #303237;}
+.footer-Logo{background: url(images/logo.svg); width: 112px; height: 24px;}
+.footer-Mainhead div:last-child{margin-left: 4px;}
+.footer-Main{width: 100%; height: 120px;}
+.footer-Mainnav{width:300px; height: auto; margin-top: 16px; transition: 0.5s; -webkit-transition: 0.5s;}
+.footer-Mainnav-A{text-decoration: none;}
+.footer-Mainnav .font-gray:hover{color: #03fcb3; transition: 0.5s; -webkit-transition: 0.5s;}
+.footer-Mainnav2{width:280px; height: auto; margin-top: 16px;}
+.footer-Mainnav2 .font-gray:hover{color: #03fcb3; transition: 0.5s; -webkit-transition: 0.5s;}
+.footer-Mainnav2 i{margin-right: 4px;}
+.footer-MainnavLine{width: 1px; height: 14px; background: #303237;}
+.flex-footer-change{display: -webkit-box; -webkit-box-pack: justify; -webkit-box-align: center; display: flex; align-items:center; justify-content: space-between;}
+.footer-gamesLogo{width: 100%; margin-bottom: 20px; overflow: hidden;}
+.footer-gamesLogoBox{width: 24px; height: 24px; margin-right: 4px; transition: 0.5s; -webkit-transition: 0.5s; filter: grayscale(100%); -webkit-filter: grayscale(100%);}
+.footer-gamesLogoBox1{background: url(images/game-1-dota2.svg);}
+.footer-gamesLogoBox2{background: url(images/game-2-yxlm.svg);}
+.footer-gamesLogoBox3{background: url(images/game-3-lushi.svg);}
+.footer-gamesLogoBox4{background: url(images/game-4-cs.svg);}
+.footer-gamesLogoBox5{background: url(images/game-5-swxf.svg);}
+.footer-gamesLogoBox6{background: url(images/game-6-xingji2.svg);}
+.footer-gamesLogoBox7{background: url(images/game-7.svg);}
+.footer-gamesLogoBox8{background: url(images/game-8.svg);}
+.footer-gamesLogoBox9{background: url(images/game-9.svg);}
+.footer-gamesLogoBox10{background: url(images/game-10.svg);}
+.footer-gamesLogoBox11{background: url(images/game-11.svg);}
+.footer-gamesLogoBox12{background: url(images/game-12.svg);}
+.footer-gamesLogoBox13{background: url(images/game-13.svg);}
+.footer-gamesLogoBoxMain{cursor: pointer; filter: gray; transition: 0.5s; -webkit-transition: 0.5s;}
+.footer-gamesLogoBoxMain:hover .footer-gamesLogoBox{filter: grayscale(0%); -webkit-filter: grayscale(0%); transition: 0.5s; -webkit-transition: 0.5s;}
+.footer-gamesLogoBoxMain:hover .font-gray{color: #ffffff; transition: 0.5s; -webkit-transition: 0.5s;}
+.footer-FAB{width: 100%; height: 40px; margin-top: 12px;}
+.footer-FABimg{width: 100px; height: 40px; background: url(images/fab.png) no-repeat center center; flex-shrink:0;}
+.footer-FAB .font-gray{margin-left: 16px; margin-top: 10px;}
+
+.navTan{position: fixed; width: 100%; height: 100%; top: 0; left: 0; z-index: 9999;  display: none;}
+.navTan-header{width: 100%; height: 60px; background: #212528; box-sizing: border-box;  padding-right: 20px;}
+.bz-close{ transition: 0.5s; -webkit-transition: 0.5s; cursor: default;}
+.bz-close:hover{color: #03fcb3; transition: 0.5s; -webkit-transition: 0.5s;}
+.navTan-body{width: 100%; height: 100%; box-sizing: border-box; padding-left: 20px; padding-right: 20px; background: #207f63;}
+.navTan-body a{text-decoration: none;  width: 100%; height: 48px; border-bottom: solid 1px #289273; transition: 0.3s; -webkit-transition: 0.3s;}
+.navTan-body a:hover{color: #03fcb3; transition: 0.3s; -webkit-transition: 0.3s;}
+.navTan-regLogin{display: none; background: #212528; width: 100%; height: 100%; box-sizing: border-box; padding-left: 20px; padding-right: 20px;}
+.navTan-regLogin input{outline: none; background: none; border: none; height: 100%; display: block;}
+.navTan-regLogin input::placeholder{color: #697081;}
+.navTan-regLogin input::-webkit-input-placeholder{color: #697081;}
+.navTan-regLogin-childborder{width: 100%; height: 48px; border-bottom: solid 1px #303237;}
+.navTan-regLogin-childHeader{width: 100%; height: 48px;}
+.navTan-regLogin-child-eye{background-image: url(images/closeeye.svg); background-repeat: no-repeat; background-position: center; background-size: 100% auto; width: 15px; height: 15px; transition: 0.3s; -webkit-transition: 0.3s; margin-right: 0px;}
+.navTan-regLogin-child-eye:hover{cursor: pointer; transition: 0.3s; -webkit-transition: 0.3s;}
+.navTan-regLogin-child-passWorld{width: 80%; height: 100%;}
+.navTan-regLogin-childWidth{width: 100%;}
+.navTan-regLogin-childWidth-passWord{width: 90%;}
+.navTan-regLogin-childWidth-sendMessage{width: 65%;}
+.navTan-regLogin-child-duanxinSend{outline: none; width: 120px; height: 30px; background: #303237; border-radius: 4px; border: none; transition: 0.3s; -webkit-transition: 0.3s; display: block;}
+#checkBox{margin-right: 10px;}
+.navTan-regLogin-tiaokuan:hover{color: #03fcb3;}
+.navTan-regLogin-child-regButton{width: 100%; height: 32px; background: #289273; margin-top: 30px; border-radius: 4px;}
+.navTan-regLogin-child-foget{width: 100%; height: 48px;}
+.navTan-regLogin-child-foget div:first-child{margin-right: 30%;}
+.navTan-regLogin-child-foget input{height: 20px; width: auto;}
+.login-Now{transition: 0.3s; -webkit-transition: 0.3s;}
+.login-Now:hover{transition: 0.3s; -webkit-transition: 0.3s; cursor: pointer; color: #03fcb3;}
+.reg-Now{transition: 0.3s; -webkit-transition: 0.3s;}
+.reg-Now:hover{transition: 0.3s; -webkit-transition: 0.3s; cursor: pointer; color: #03fcb3;}
+.fogetPasswords{transition: 0.3s; -webkit-transition: 0.3s;}
+.fogetPasswords:hover{transition: 0.3s; -webkit-transition: 0.3s; cursor: pointer; color: #03fcb3;}
+
+.PC-loginMain{width: 100%; height: 100%; background: rgba(0,0,0,0.5); position: fixed; left: 0; top: 0; z-index: 9999; display: none;}
+.PC-loginChild{width: 650px; height: 640px; background: #212528; box-shadow: 0px 0px 16px rgba(0,0,0,0.75); -webkit-animation:topMove100 0.5s;  animation:topMove100 0.5s; overflow: hidden;}
+.PC-loginChild-left{width: 250px; height: 100%; background: url(images/sigin-in.jpg) center top no-repeat; background-size: auto 100%;}
+.PC-loginChild-right{width: 400px; height: 100%; box-sizing: border-box; padding-left: 20px; padding-right: 20px;}
+.PC-loginChild-right-header{width: 100%; height: 40px;}
+.login-Now2{transition: 0.3s; -webkit-transition: 0.3s;}
+.login-Now2:hover{transition: 0.3s; -webkit-transition: 0.3s; cursor: pointer; color: #03fcb3;}
+.reg-Now2{transition: 0.3s; -webkit-transition: 0.3s;}
+.reg-Now2:hover{transition: 0.3s; -webkit-transition: 0.3s; cursor: pointer; color: #03fcb3;}
+.fogetPasswords2{transition: 0.3s; -webkit-transition: 0.3s;}
+.fogetPasswords2:hover{transition: 0.3s; -webkit-transition: 0.3s; cursor: pointer; color: #03fcb3;}
+
+@media only screen and (min-width: 1000px) and (max-width: 1317px){
+    .headerMax{display: none;}
+    .navMax{display: none;}
+    .headerMiddle{display: -webkit-box; display: flex;}
+    .footer-child{width: 96%;}
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1000px){
+    .headerMax{display: none;}
+    .navMax{display: none;}
+    .headerMiddle{display: -webkit-box; display: flex;}
+    .footer-child{width: 96%;}
+    .footer-Main-Box3{display: none;}
+    .footer-gamesLogo{display: none;}
+    .footer{height: 250px;}
+}
+
+@media only screen and (max-width: 750px){
+    .headerMax{display: none;}
+    .navMax{display: none;}
+    .headerMix{display: -webkit-box; display: flex;}
+    .footer-child{width: 92%;}
+    .footer-Main{height: 320px;}
+    .footer-Main-Box{width: 100%;}
+    .footer-Main-Box2{margin-top: 40px; margin-bottom: 40px;}
+    .footer-Mainnav{width: 100%;}
+    .footer-Mainnav2{width: 100%;}
+    .flex-footer-change{display: -webkit-box; -webkit-box-pack: center; -webkit-box-align: center; -webkit-box-orient: vertical; display: flex; flex-direction: column; align-items:center; justify-content: center;}
+    .footer-gamesLogo{display: none;}
+    .footer{height: auto; padding-bottom: 20px;}
+}
+
+/*--------------------------------------动画定义区，全局通用-------------------------------------------*/
+
+@keyframes topMove100 {
+    from{transform: translate(0px,-100px); opacity: 0.2; -webkit-transform: translate(0px,-100px);}
+    to{transform: none; opacity: 1; -webkit-transform: none;}
+}
+@-webkit-keyframes topMove100 {
+    from{-webkit-transform: translate(0px,-100px); opacity: 0.2; transform: translate(0px,-100px);}
+    to{-webkit-transform: none; opacity: 1; transform: none;}
+}
+@keyframes leftMove {
+    0%{transform: translate(-200px,0px); opacity: 0.2;}
+    100%{transform: none; opacity: 1;}
+}
+@-webkit-keyframes leftMove {
+    0%{-webkit-transform: translate(-200px,0px); opacity: 0.2;}
+    100%{-webkit-transform: none; opacity: 1;}
+}
+@keyframes rightMove {
+    0%{transform: translate(200px,0px); opacity: 0.2;}
+    100%{transform: none; opacity: 1;}
+}
+@-webkit-keyframes rightMove {
+    0%{-webkit-transform: translate(200px,0px); opacity: 0.2;}
+    100%{-webkit-transform: none; opacity: 1;}
+}
+@keyframes topMove200 {
+    0%{transform: translate(0px,-200px); opacity: 0.5;}
+    100%{transform: none; opacity: 1;}
+}
+@-webkit-keyframes topMove200 {
+    0%{-webkit-transform: translate(0px,-200px); opacity: 0.5;}
+    100%{-webkit-transform: none; opacity: 1;}
+}
+@keyframes toLeft100 {
+    from{transform: translate(-20px,0px); opacity: 0.2;}
+    to{transform: none; opacity: 1;}
+}
+@-webkit-keyframes toLeft100 {
+    from{-webkit-transform: translate(-20px,0px); opacity: 0.2;}
+    to{-webkit-transform: none; opacity: 1;}
+}
+@keyframes toRight100 {
+    from{transform: translate(20px,0px); opacity: 0.2;}
+    to{transform: none; opacity: 1;}
+}
+@-webkit-keyframes toRight100 {
+    from{-webkit-transform: translate(20px,0px); opacity: 0.2;}
+    to{-webkit-transform: none; opacity: 1;}
+}
+
+@keyframes toLeft100_1 {
+    from{transform: none; opacity: 1;}
+    to{transform: translate(-20px,0px); opacity: 0;}
+}
+@-webkit-keyframes toLeft100_1 {
+    from{-webkit-transform: none; opacity: 1;}
+    to{-webkit-transform: translate(-20px,0px); opacity: 0;}
+}
+@keyframes toRight100_1 {
+    from{transform: none; opacity: 1;}
+    to{transform: translate(20px,0px); opacity: 0;}
+}
+@-webkit-keyframes toRight100_1 {
+    from{-webkit-transform: none; opacity: 1;}
+    to{-webkit-transform: translate(20px,0px); opacity: 0;}
+}
+
+@keyframes toBottom-200 {
+    from{transform: translate(0px,200px); opacity: 0;}
+    to{transform: none; opacity: 1;}
+}
+@-webkit-keyframes toBottom-200 {
+    from{-webkit-transform: translate(0px,200px); opacity: 0;}
+    to{-webkit-transform: none; opacity: 1;}
+}
+
+/*--------------------------------------动画定义区，全局通用-------------------------------------------*/

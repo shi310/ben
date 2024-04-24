@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>训练四：微群聊门户测试站点</title>
+    <link rel="stylesheet" href="P4_default.css" />
+    <link rel="stylesheet" href="P4_1080-1440.css" media="screen and (max-width:1440px) and (min-width:1080px)" />
+    <link rel="stylesheet" href="P4_750-1080.css" media="screen and (max-width:1080px) and (min-width:750px)" />
+    <link rel="stylesheet" href="P4_480-750.css" media="screen and (max-width:750px) and (min-width:480px)" />
+    <link rel="stylesheet" href="P4_mix.css" media="screen and (max-width:480px)" />
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_792923_2gx9t1tdodz.css" />
+    <style>
+        * {
+            transition: 0.5s;
+        }
+
+        .PartWenti .Body2.bodywentiAll {
+            width: 1080px
+        }
+
+        .PartWenti .Body2.bodywentiAll>div>div {
+            padding: 0 20px;
+            font: 22px 微软雅黑;
+            color: #1ebea5;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            box-sizing: border-box;
+            border-bottom: solid 1px #cccccc;
+            cursor: pointer;
+        }
+
+        .PartWenti .Body2.bodywentiAll>div>article {
+            background: #fbf7ea;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            display: none;
+        }
+
+        .PartWenti .Body2.bodywentiAll>div>article>a {
+            padding: 0 20px;
+            font: 18px 微软雅黑;
+            color: #0f0f0f;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        .PartWenti .Body2.bodywentiAll>div>div:last-child {
+            border: none;
+        }
+
+        .PartWenti i {
+            display: inline-block;
+            margin-right: 10px;
+            font-size: 22px;
+            color: #cccccc;
+        }
+
+        @media screen and (max-width: 1080px) {
+            .PartWenti .Body2.bodywentiAll {
+                width: 100%;
+            }
+            .PartWenti .Body2.bodywentiAll>div>div:first-child {
+                padding-top: 30px;
+                font: 22px 微软雅黑;
+                color: #1ebea5;
+            }
+            .PartWenti .Body2.bodywentiAll>div>div:first-child:hover {
+                color: #ffffff;
+            }
+        }
+
+        @media screen and (max-width: 1440px) {
+            .PartWenti-Foot {
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!--网站头部-->
+    <div class="Flex_HC HeadBox HeadChanpinGongneng">
+        <div class="Flex_HC HeadBox2">
+            <div class="Flex_HS HeadBody">
+                <a class="Flex_HC LogoBox1" href="practice4.html">
+                    <img class="Logo" src="images/logo-max.png" alt="logo" />
+                    <span>微群聊</span>
+                </a>
+                <div class="Flex_HS">
+                    <a href="webapp.html">微群聊网页版</a>
+                    <a href="ChanpinGongneng.html">产品功能</a>
+                    <a href="anquanxing.html">安全性</a>
+                    <a href="download.html">产品下载</a>
+                    <a href="wenti.html">常见问题</a>
+                    <a href="lianxi.html">联系我们</a>
+                </div>
+                <i class="iconfont icon-liebiao" id="iconZixun"></i>
+            </div>
+        </div>
+    </div>
+
+    <!--网站主体部分-->
+    <div class="Flex_SC Body PartWenti">
+        <div class="Flex_SC searchBox">
+            <h1 class="importantText">我们可以怎样帮助您呢？</h1>
+            <form action="">
+                <input type="text" placeholder="输入关键词搜索答案" class="">
+            </form>
+            <div class="normalText">您可以浏览以下的主题寻找您想查看的项目。</div>
+        </div>
+        <div class="Flex_HC Body2 bodywentiAll">
+            <div class="Flex_S BodyChild">
+                <div class="biaoti"><i class="iconfont icon-jiantouyou zhizhen"></i>下载及安装</div>
+                <article class="Flex_S daan">
+                    <a href="#">更新 微群聊</a>
+                    <a href="#">微群聊 商业产品</a>
+                    <a href="#">取得使用 Business API 的权限</a>
+                    <a href="#">下载 微群聊 Business</a>
+                    <a href="#">支持旧的操作系统</a>
+                </article>
+                <div class="biaoti"><i class="iconfont icon-jiantouyou zhizhen"></i>验证</div>
+                <article class="Flex_S daan">
+                    <a href="#">两步验证功能</a>
+                    <a href="#">在多台电话上使用同一个 微群聊 帐号或使用多个电话号码</a>
+                </article>
+                <div class="biaoti"><i class="iconfont icon-jiantouyou zhizhen"></i>帐号和个人资料</div>
+                <article class="Flex_S daan">
+                    <a href="#">请求用户帐号信息</a>
+                    <a href="#">微群聊 Business 是什麽？</a>
+                    <a href="#">与商业对话</a>
+                    <a href="#">什么是解决方案提供者？</a>
+                    <a href="#">商业名称与认证</a>
+                    <a href="#">手机遗失或被窃</a>
+                    <a href="#">更改电话号码或手机</a>
+                    <a href="#">更改应用程序的语言</a>
+                    <a href="#">微群聊 是免费的吗？</a>
+                    <a href="#">看见 "你的电话号码已被禁止使用 微群聊，请联络客户服务寻求协助" 的信息</a>
+                    <a href="#">在 微群聊 看见我的联系人，但是其他人在使用這個帐号</a>
+                    <a href="#">发现你的新电话号码已经有一个 微群聊 帐号</a>
+                </article>
+                <div class="biaoti"><i class="iconfont icon-jiantouyou zhizhen"></i>对话</div>
+                <article class="Flex_S daan">
+                    <a href="#">在群组对话中提及联系人</a>
+                    <a href="#">回复信息功能</a>
+                    <a href="#">编辑文字格式能</a>
+                    <a href="#">了解最後上线与在线上</a>
+                    <a href="#">从商业得到消息</a>
+                    <a href="#">关闭来自商业的通知</a>
+                    <a href="#">使用点击对话功能</a>
+                </article>
+                <div class="biaoti"><i class="iconfont icon-jiantouyou zhizhen"></i>联系人</div>
+                <article class="Flex_S daan">
+                    <a href="#">看不见联系人的个人资料</a>
+                </article>
+                <div class="biaoti"><i class="iconfont icon-jiantouyou zhizhen"></i>语音和视频通话</div>
+                <article class="Flex_S daan">
+                    <a href="#">在某些地区无法使用 微群聊 语音通话功能</a>
+                </article>
+                <div class="biaoti"><i class="iconfont icon-jiantouyou zhizhen"></i>隐私和安全</div>
+                <article class="Flex_S daan">
+                    <a href="#">有人封锁了我</a>
+                    <a href="#">端到端加密技术</a>
+                    <a href="#">商业消息的端到端加密</a>
+                    <a href="#">我收到联系人安全编码已更改的通知，这是什麼意思？</a>
+                    <a href="#">看见 "正在等待消息，可能需要一段时间" 的消息</a>
+                    <a href="#">诈骗性信息</a>
+                    <a href="#">使用您的电话号码跟通讯录</a>
+                    <a href="#">安全使用 微群聊</a>
+                    <a href="#">各地用户的 微群聊 服务商是谁</a>
+                    <a href="#">使用 微群聊 的最小年龄</a>
+                    <a href="#">用户需要遵守哪些服务条款</a>
+                    <a href="#">Information for Law Enforcement Authorities</a>
+                    <a href="#">自杀干预服务热线（全球）</a>
+                </article>
+                <div class="biaoti"><i class="iconfont icon-jiantouyou zhizhen"></i>疑难排解</div>
+                <article class="Flex_S daan">
+                    <a href="#">发送或接收信息问题</a>
+                    <a href="#">模糊照片问题</a>
+                    <a href="#">信息时间标记不正确</a>
+                </article>
+            </div>
+        </div>
+    </div>
+    <!--通用foot-->
+    <div class="Flex_HC Body Part5 PartWenti-Foot">
+        <div class="Flex_HC Body2">
+            <div class="Flex_HC BodyChild">
+                <div class="Flex_HS Child">
+                    <div class="Flex_S">
+                        <span>微群聊 APP</span>
+                        <a href="ChanpinGongneng.html">功能</a>
+                        <a href="anquanxing.html">安全性</a>
+                        <a href="download.html">下载</a>
+                        <a href="webapp.html">微群聊网页版</a>
+                    </div>
+                    <div class="Flex_S">
+                        <span>公司</span>
+                        <a href="aboutus.html">关于</a>
+                        <a href="lianxi.html">联系我们</a>
+                    </div>
+                </div>
+                <div class="Flex_HS Child">
+                    <div class="Flex_S">
+                        <span>下载</span>
+                        <a href="download.html">MAC / PC</a>
+                        <a href="download.html">Android</a>
+                        <a href="download.html">iPhone</a>
+                        <a href="download.html">Windows Phone</a>
+                    </div>
+                    <div class="Flex_S">
+                        <span>帮助</span>
+                        <a href="wenti.html">常见问题</a>
+                        <a href="https://6x6m6e.axshare.com/">彩票宝典</a>
+                        <a href="../index.html" class="P4_H9">练习首页</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Flex_HC Body Part6">
+        <div class="Flex_HC Body2">
+            <div class="Flex_HC BodyChild">
+                <span class="P4_H9">2018 © 微群聊App Inc.</span>
+                <a href="tiaokuan.html" class="P4_H9">使用条款</a>
+            </div>
+        </div>
+    </div>
+
+    <!--弹出菜单-->
+    <div class="Flex_HC Body" id="P4_Tan">
+        <div class="BodyChild">
+            <div class="Flex_HS TanHead">
+                <div class="Flex_HC">
+                    <img src="images/logo-max.png" alt="logo" />
+                    <span>微群聊</span>
+                </div>
+                <i class="iconfont icon-guanbi" id="iconClose"></i>
+            </div>
+            <a href="ChanpinGongneng.html">产品功能</a>
+            <a href="anquanxing.html">安全性</a>
+            <a href="download.html">产品下载</a>
+            <a href="wenti.html">常见问题</a>
+            <a href="lianxi.html">联系我们</a>
+        </div>
+    </div>
+</body>
+<script src="practice4_default.js"></script>
+<script>
+    var $biaoti = document.getElementsByClassName('biaoti');
+    var $daan = document.getElementsByClassName('daan');
+    for (var i = 0; i < $biaoti.length; i++) {
+        $biaoti[i].odd = true;
+        $biaoti[i].onclick = function () {
+            if (this.odd == true) {
+                this.style.background = '#1ebea5';
+                this.style.color = '#ffffff';
+                this.nextSibling.nextSibling.style.display = 'flex';
+                this.odd = false;
+                this.lastChild.style.color = '#ffffff';
+            } else {
+                this.style.color = '#1ebea5';
+                this.style.background = '#ffffff';
+                this.nextSibling.nextSibling.style.display = 'none';
+                this.odd = true;
+            }
+
+        }
+    }
+</script>
+
+</html>

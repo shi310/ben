@@ -1,0 +1,85 @@
+.Body2{width: 100%}/*中层主体100%*/
+/*头部*/
+.HeadBox2{width: 100%}/*头部里层的框架 默认情况下是1440px，当浏览器尺寸小于1080时，宽度变成100%*/
+.HeadBody div{width: 90%}/*导航栏菜单的总体宽度*/
+.LogoBox1{width: 10%; justify-content: flex-start}/*logo总体宽度*/
+.LogoBox1 span{display: none}/*不显示logo的文字*/
+.HeadBox{height: 70px}/*导航的宽度降为70px*/
+
+/*主体 PC-1*/
+.Part1 .BodyChild{flex-direction: column}
+.Part1 img{margin-top: 100px}
+
+/*Part-3*/
+.Part3 .BodyChild{flex-direction: column; justify-content: center; width: 90%; height: 1260px}/*第三部分主体的布局方式*/
+.Part3 .BodyChild .Flex_SC{margin-top: 50px}/*子项目的上边距*/
+.Part3 .BodyChild .Flex_SC:first-child{margin-top: 0}/*第一个子项目的上边距*/
+
+/*Part-4*/
+.Part4 .BodyChild{flex-direction: column; height: auto}
+.Part4 .BodyChild .Flex_SE, .Part4 .BodyChild .Flex_SC{width: 100%; height: 580px} /*上下的box设定宽度和背景颜色*/
+
+/*Part-5*/
+.Part5{margin-top: 0}
+.Part5 .BodyChild{justify-content: space-between} /*让底部的导航菜单平均分布*/
+.Part5 .Child{width: 40%} /*底部导航栏分成两个部分，对每个部分进行设定*/
+.Part5 .Child:last-child{margin-left: 0} /*底部右侧导航栏的左边距*/
+
+/*产品功能页面的第一部分*/
+.PartChanpin1 .BodyChild div{width: 100%; margin-top: 0} /*去除第一部分的子元素上边距*/
+.PartChanpin1 .BodyChild{height: auto; width: 100%} /*第一部分整体高度自适应*/
+.PartChanpin1{margin-top: 70px;}/*第一部分整体的上边距*/
+.PartChanpinBanner{display: none}
+.PartChanpin1 .BodyChild > div{height: auto; padding-top: 35px; padding-bottom: 35px}
+.PartChanpin1 .BodyChild > div:last-child , .PartChanpin1 .BodyChild .Chanpin3{padding-top: 0}
+
+/*下载页面的css*/
+.PartDownload{margin-top: 0}
+.PartDownload .MobileDown{width: 80%; margin-top: 60px; margin-bottom: 60px}
+.PartDownload .DownloadPart2 > img{margin-top: 60px; margin-bottom: 60px}
+.PartDownload .BodyChild{flex-direction: column; width: 100%}
+.PartDownload .BodyChild .DownloadPart1{height: 780px}
+.PartDownload .BodyChild .DownloadPart2{height: 780px}
+.PartDownload .BodyChild .DownloadPart1 .MobileDown{width: 600px}
+.PartDownload .BodyChild div{width: 100%}
+.PartDownload .MobileDown div{width: 130px}
+.PartDownloadBanner{margin-top: 70px}
+.PartDownloadBanner .Body2{height: 256px; background: none; flex-direction: column; justify-content: center}
+.PartDownloadBanner .BodyChild{align-items: center}
+.PartDownloadBanner .BodyChild span{text-align: center}
+.PartDownload .DownloadPart2 div{width: 300px; height: 50px; background: #01e675; border-radius: 25px; color: #ffffff; margin-top: 20px}
+
+/*安全性页面的css*/
+.AnquanBody{background: #ffffff; padding-top: 0px; padding-bottom: 0px}
+.AnquanBody .BodyChild{padding-top: 20px; padding-bottom: 20px}
+.AnquanBody .BodyChild .Child{width:100%; padding-bottom: 10px; padding-top: 10px}
+.AnquanBody .Child4{flex-direction: column}
+.AnquanBody .BodyChild .Child2 .importantText{text-align: left; width: 100%}
+.AnquanBody .BodyChild .Child2 .normalText{text-align: left; width:100%}
+.AnquanBanner{margin-top: 70px;height: 260px}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*联系我们页面的css*/
+.Lianxi{background: #cccccc;; padding-top: 100px; padding-bottom: 100px; margin-top: 60px}  /*联系我们页面的总背景，以及上下的间距*/
+.Lianxi .BodyChild{margin-left: 5%}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*联系我们页面的css*/
+.Lianxi{padding-top: 0px; padding-bottom: 0px;margin-top: 70px}  /*联系我们页面的总背景，以及上下的间距*/
+.Lianxi .importantText{margin-top: 30px}
+.Lianxi .Body2{padding-top: 20px; padding-bottom: 20px; box-shadow: none}
+.Lianxi .BodyChild > div:first-child{margin-bottom: 10px}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*常见问题页面的css*/
+.PartWenti .searchBox{margin-top: 70px}
+.PartWenti .BodyChild{padding-top: 50px; padding-bottom: 50px}
+.PartWenti .searchBox{height: 200px;}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*关于我们页面的css*/
+.AboutUS{margin-top: 70px}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/

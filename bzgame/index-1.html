@@ -1,0 +1,537 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <script type="text/javascript" async="" src="analytics.js"></script>
+  <script async="" src="unknowfile"></script>
+  <title>亚洲电竞</title>
+  <link href="app.65adc11d608759d8a59219ae1c89230c.css" rel="stylesheet">
+  <script type="text/javascript" charset="utf-8" async="" src="/static/js/0.2cd59b64c8d46ba3b9ff.js"></script>
+  <script type="text/javascript" charset="utf-8" async="" src="/static/js/8.d92b8b40be52045d76ad.js"></script>
+  <style type="text/css">
+    *{
+      transition: 1s;
+    }
+    .vgs {
+      transition: opacity .2s ease;
+      position: fixed;
+      z-index: 9998;
+      top: 0;
+      left: 0;
+      width: 100%;
+      min-height: 100%;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, .8);
+      display: table
+    }
+
+    .vgs__close {
+      color: #fff;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: transparent;
+      border: none;
+      font-size: 25px;
+      width: 50px;
+      height: 50px;
+      cursor: pointer;
+      z-index: 999
+    }
+
+    .vgs__close:focus {
+      outline: 0
+    }
+
+    .vgs__next,
+    .vgs__prev {
+      position: absolute;
+      top: 50%;
+      margin-top: -25px;
+      width: 50px;
+      height: 50px;
+      z-index: 999;
+      cursor: pointer;
+      font-size: 40px;
+      color: #fff;
+      background-color: transparent;
+      border: none
+    }
+
+    .vgs__next:focus,
+    .vgs__prev:focus {
+      outline: 0
+    }
+
+    .vgs__prev {
+      left: 0
+    }
+
+    .vgs__next {
+      right: 0
+    }
+
+    .vgs__container {
+      position: absolute;
+      overflow: hidden;
+      cursor: pointer;
+      overflow: hidden;
+      max-width: 100vh;
+      margin: .5rem auto 0;
+      left: .5rem;
+      right: .5rem;
+      height: 60vh;
+      border-radius: 12px;
+      background-color: #000
+    }
+
+    @media (max-width:767px) {
+      .vgs__container {
+        width: 100%;
+        max-width: 100%;
+        top: 50%;
+        margin-top: -140px;
+        left: 0;
+        right: 0;
+        border-radius: 0;
+        height: 280px
+      }
+    }
+
+    .vgs__container__img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain
+    }
+
+    .vgs__gallery {
+      overflow-x: hidden;
+      overflow-y: hidden;
+      position: absolute;
+      bottom: 10px;
+      margin: auto;
+      max-width: 100vh;
+      white-space: nowrap;
+      left: .5rem;
+      right: .5rem
+    }
+
+    @media (max-width:767px) {
+      .vgs__gallery {
+        display: none
+      }
+    }
+
+    .vgs__gallery__title {
+      color: #fff;
+      margin-bottom: .5rem
+    }
+
+    .vgs__gallery__container {
+      overflow: visible;
+      display: block;
+      height: 100px;
+      white-space: nowrap;
+      transition: all .2s ease-in-out;
+      width: 100%
+    }
+
+    .vgs__gallery__container__img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      display: inline-block;
+      float: none;
+      margin-right: 20px;
+      cursor: pointer;
+      opacity: .6;
+      border-radius: 8px
+    }
+
+    .vgs__gallery__container__img--active {
+      width: 100px;
+      display: inline-block;
+      float: none;
+      opacity: 1
+    }
+
+    .modal-enter {
+      opacity: 0
+    }
+
+    .modal-leave-active {
+      opacity: 0
+    }
+    #imgBox{
+      background: url(1.jpg) no-repeat center 40px;
+    }
+    .buttonBox{
+      width: 16px;
+      height: 16px;
+      border-radius: 100%;
+      background: red;
+      cursor: pointer;
+    }
+    .buttonBox:hover{
+      background: white;
+    }
+  </style>
+    <script type="text/javascript">
+      window.onload = function () {
+        var $imgBox = document.getElementById('imgBox');
+        document.getElementById('buttonBox1').onclick = function () {
+          $imgBox.style.background = 'url(1.jpg) no-repeat center 40px';
+        }
+        document.getElementById('buttonBox2').onclick = function () {
+          $imgBox.style.background = 'url(2.jpg) no-repeat center 40px';
+        }
+        document.getElementById('buttonBox3').onclick = function () {
+          $imgBox.style.background = 'url(3.jpg) no-repeat center 40px';
+        }
+        document.getElementById('buttonBox4').onclick = function () {
+          $imgBox.style.background = 'url(4.jpg) no-repeat center 40px';
+        }
+      }
+      </script>
+</head>
+
+<body style="background-color:#1E2124;">
+  <div id="app" class="page">
+    <section class="bg1">
+      <div selectedindex="0">
+        <header class="header">
+          <nav class="hd-top">
+            <div class="l">
+              <div class="hz">
+                <div class="item flex flex-align-center"><img src="../test/斗鱼直播logo.svg" style="height:30px;">
+                  <div class="name">
+                    斗鱼直播
+                    <span>战略合作伙伴</span></div>
+                </div>
+              </div>
+              <div class="xl"><a href="#">最快线路</a> <em></em> <a href="#">合营伙伴</a> <em></em> <a href="#/Rules"
+                  class="">帮助中心</a></div>
+            </div>
+            <div class="m"><img src="images/logo-max@4x-9-1-1.gif"></div>
+            <div class="r">
+              <div class="user-login"><a><i class="iconfont bz-wangjimima"></i>忘记密码?</a> <em></em> <span>您好，请先登录</span>
+                <span class="login"><a>登录</a><em>/</em><a>注册</a></span></div>
+              <!---->
+            </div>
+          </nav>
+          <nav class="hd-menu">
+            <ul class="clearfix">
+              <li class="active"><a href="#/" class="router-link-exact-active router-link-active"><i
+                    class="iconfont bz-shouye1"></i>首页</a></li>
+              <li class=""><a href="#/esports" class=""><i class="iconfont bz-jingcai_zhengchang"></i>电竞竞猜</a></li>
+              <li class=""><a href="#/" class="router-link-exact-active router-link-active"><i
+                    class="iconfont bz-saiguo"></i>体育竞技</a></li>
+              <li class=""><a href="#/news/article" class=""><i class="iconfont bz-zixun1"></i>电竞资讯</a></li>
+              <li class=""><a href="#/promotion" class=""><i class="iconfont bz-liwu2"></i>优惠活动</a></li>
+              <li class=""><a href="#/" class="router-link-exact-active router-link-active"><i
+                    class="iconfont bz-guize"></i>积分商城</a></li>
+              <li class=""><a href="#/" class="router-link-exact-active router-link-active"><i
+                    class="iconfont bz-shouji"></i>APP下载</a></li>
+              <li class=""><a href="#/" class="router-link-exact-active router-link-active"><i
+                    class="iconfont bz-fengcai"></i>暴走风采</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="el-dialog__wrapper" style="display: none;">
+          <div role="dialog" aria-modal="true" aria-label="dialog" class="el-dialog myAlert myLogin"
+            style="margin-top: 15vh;">
+            <div class="el-dialog__header"><span class="el-dialog__title"></span>
+              <!---->
+            </div>
+            <!---->
+            <!---->
+          </div>
+        </div>
+        <!---->
+        <!---->
+      </div>
+      <nav class="banner flex flex-pack-justify">
+        <div class="ban">
+          <div class="el-carousel">
+            <div id="imgBox" class="el-carousel__container" style="height: 700px; display: flex; align-items: flex-end; justify-content: center;">
+              <div style="display:flex; width:200px; height:20px; justify-content:space-between; margin-bottom:200px;">
+                <div id="buttonBox1" class="buttonBox"></div>
+                <div id="buttonBox2" class="buttonBox"></div>
+                <div id="buttonBox3" class="buttonBox"></div>
+                <div id="buttonBox4" class="buttonBox"></div>
+              </div>
+            </div>
+            <ul class="el-carousel__indicators"></ul>
+          </div>
+        </div>
+      </nav>
+      <section class="main" style="margin-top:-200px;">
+        <div class="liveGame">
+          <div class="wrapper">
+            <div class="items">
+              <div class="item wow animated   fadeInLeft ">
+                <div class="bd ">
+                  <div class="name">
+                    ECS挑战者杯
+                    <span>滚球中</span></div>
+                  <div class="conts flex">
+                    <div class="team flex flex-v"><img src="http://cdn.555158.com/5aeabe2fbf7f452e848c3113a06f329e.png">
+                      <span>AGO Gaming</span> <label>赔率：<b>1.83</b></label></div>
+                    <div class="team flex flex-v"><img src="http://cdn.555158.com/a933eb5380bf4fffbc7abb1bab7ec11c.png">
+                      <span>Heroic</span> <label>赔率：<b>1.83</b></label></div>
+                    <div class="versus">
+                      <div class="vs-wrapper">
+                        <div class="row"><label class="w20 on gameicon bz-csgo"><i></i></label></div>
+                        <div class="row vs">VS</div>
+                        <div class="row">BO3</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="title"><a href="#/Betting/6946" class="btn btn3">查看賽事</a></div>
+                </div>
+              </div>
+              <div class="item wow animated   fadeInDown ">
+                <div class="bd ">
+                  <div class="name">
+                    DreamLeague
+                    <!---->
+                  </div>
+                  <div class="conts flex">
+                    <div class="team flex flex-v"><img src="http://cdn.555158.com/faf7a85b6d8c46dd8bdb313cb6b20fbd.png">
+                      <span>Team Secret</span> <label>赔率：<b>1.06</b></label></div>
+                    <div class="team flex flex-v"><img src="http://cdn.555158.com/2e90eb1526454fdcbe5114240f202d58.png">
+                      <span>J.Storm</span> <label>赔率：<b>10.00</b></label></div>
+                    <div class="versus">
+                      <div class="vs-wrapper">
+                        <div class="row"><label class="w20 on gameicon bz-dota"><i></i></label></div>
+                        <div class="row vs">VS</div>
+                        <div class="row">BO3</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="title"><a href="#/Betting/6931" class="btn btn3">查看賽事</a></div>
+                </div>
+              </div>
+              <div class="item wow animated   fadeInRight ">
+                <div class="bd ">
+                  <div class="name">
+                    LOOT.B热点系列赛
+                    <!---->
+                  </div>
+                  <div class="conts flex">
+                    <div class="team flex flex-v"><img src="http://cdn.555158.com/f955fed9a24445f381be418caaaac908.png">
+                      <span>DreamEaters</span> <label>赔率：<b>1.61</b></label></div>
+                    <div class="team flex flex-v"><img src="http://cdn.555158.com/75cf978c69ed4d51ae02dcbd4e1e4a92.png">
+                      <span>Syman</span> <label>赔率：<b>2.20</b></label></div>
+                    <div class="versus">
+                      <div class="vs-wrapper">
+                        <div class="row"><label class="w20 on gameicon bz-csgo"><i></i></label></div>
+                        <div class="row vs">VS</div>
+                        <div class="row">BO3</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="title"><a href="#/Betting/7037" class="btn btn3">查看賽事</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="index-news">
+          <div class="wrapper">
+            <div class="new-title wow  fadeInUp animated" style="visibility: visible;"><span class="title">资讯</span>
+              <span class="subtitle">/ News</span></div>
+            <div class="new-menu wow  fadeInUp animated" style="visibility: visible;"><a href="javascript:void(0)"
+                class="active">新闻</a> <a href="javascript:void(0)" class="">视频</a> <a href="javascript:void(0)"
+                class="">图集</a> <a href="javascript:void(0)" class="">专题</a> <a href="#/News/Article" class="">更多</a>
+            </div>
+            <div class="conts clearfix">
+              <ul class="newpage news  wow animated fadeInRigh animated" style="visibility: visible;">
+                <li class="wow animated  fadeInLeft">
+                  <div class="bd flex">
+                    <div class="img"><img src="http://cdn.555158.com/bb614cd0bef046c6bf7a1e05a5956b2e.png"></div>
+                    <div class="detil">
+                      <div class="title"><span
+                          class="gameicon bz-csgo  w20 on "><i></i></span>TyLoo女队小姐姐专访：作为女生最大的优势就是，心思更加细腻</div>
+                      <div class="time"><span><i class="iconfont bz-shijian"></i>5天前</span> <span><i
+                            class="iconfont bz-liulan"></i>6203</span></div>
+                      <div class="site">TyLoo女队小姐姐专访：作为女生最大的优势就是，心思更加细腻</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="wow animated  fadeInRight">
+                  <div class="bd flex">
+                    <div class="img"><img src="http://cdn.555158.com/5aa056c89d214bbf85be799654da4d99.png"></div>
+                    <div class="detil">
+                      <div class="title"><span class="gameicon bz-yxlm  w20 on "><i></i></span>LCK：Gen.G
+                        2:0终结GRF不败金身！发推表示他们也很惊喜</div>
+                      <div class="time"><span><i class="iconfont bz-shijian"></i>6天前</span> <span><i
+                            class="iconfont bz-liulan"></i>12246</span></div>
+                      <div class="site">在这个充满浪漫气息的白色情人节，Gen.G LOL 战队给广大粉丝送上 ......</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="wow animated  fadeInLeft">
+                  <div class="bd flex">
+                    <div class="img"><img src="http://cdn.555158.com/94a4b3e192d94aada977294150d6a985.jpeg"></div>
+                    <div class="detil">
+                      <div class="title"><span
+                          class="gameicon bz-yxlm  w20 on "><i></i></span>RNG发布视频讲述背后故事：AJ为什么会打得这么差？</div>
+                      <div class="time"><span><i class="iconfont bz-shijian"></i>1天前</span> <span><i
+                            class="iconfont bz-liulan"></i>239</span></div>
+                      <div class="site">英雄联盟RNG战队在3月17号艰难取胜BLG战队，但是赛后队员却不怎么 ......</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="wow animated  fadeInRight">
+                  <div class="bd flex">
+                    <div class="img"><img src="http://cdn.555158.com/484f0e6927b8445fa7fc73914fffc236.png"></div>
+                    <div class="detil">
+                      <div class="title"><span class="gameicon bz-yxlm  w20 on "><i></i></span>LPL第八周周报：369与Zoom，国产上单之光
+                      </div>
+                      <div class="time"><span><i class="iconfont bz-shijian"></i>1天前</span> <span><i
+                            class="iconfont bz-liulan"></i>462</span></div>
+                      <div class="site">截止到3月17日，TOP和FPX依旧领跑春季赛常规赛的榜单，同时 ，I ......</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="wow animated  fadeInLeft">
+                  <div class="bd flex">
+                    <div class="img"><img src="http://cdn.555158.com/4f2f6e013f8446ef99964f67dba423cb.jpeg"></div>
+                    <div class="detil">
+                      <div class="title"><span class="gameicon bz-yxlm  w20 on "><i></i></span>LPL今日前瞻：WE主场迎战TOP 两大新军相遇
+                      </div>
+                      <div class="time"><span><i class="iconfont bz-shijian"></i>1天前</span> <span><i
+                            class="iconfont bz-liulan"></i>353</span></div>
+                      <div class="site">3月19日，2019LPL春季赛常规赛将进入第九周的第二个比赛日。在目 ......</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="wow animated  fadeInRight">
+                  <div class="bd flex">
+                    <div class="img"><img src="http://cdn.555158.com/f2e49f1b37df4252bb24fc27bc20a187.png"></div>
+                    <div class="detil">
+                      <div class="title"><span
+                          class="gameicon bz-qita  w20 on "><i></i></span>第三届WESG全球总决赛落幕：韩国队2金1银1铜成最大赢家</div>
+                      <div class="time"><span><i class="iconfont bz-shijian"></i>2天前</span> <span><i
+                            class="iconfont bz-liulan"></i>143</span></div>
+                      <div class="site">第三届WESG全球总决赛落幕,让我们一起来看看本届WESG全球总决赛的 ......</div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <!---->
+              <!---->
+              <!---->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---->
+      <footer id="footer" class="footer">
+        <nav class="wrapper">
+          <div class="f-top flex flex-pack-justify"><img src="/static/imgs/logo/logo.png" style="height: 28px;">
+            <div><span id="onlinenum" class="mt-number">3,643</span>在线人数</div>
+          </div>
+          <div class="f-link flex">
+            <div>
+              <div class="hd-title"><span>使用帮助</span><b>Help</b></div>
+              <ul>
+                <li><a href="#/Rules/Deposit" class="">如何存款</a></li>
+                <li>|</li>
+                <li><a href="#/Rules/Withdrawal" class="">如何提款</a></li>
+                <li>|</li>
+                <li><a href="#/Rules" class="">规则条款</a></li>
+                <li>|</li>
+                <li><a href="#/Rules/Privacy" class="">隐私政策</a></li>
+              </ul>
+            </div>
+            <div>
+              <div class="hd-title"><span>联系我们</span><b>Contact us</b></div>
+              <ul>
+                <li><a href="#">QQ客服</a></li>
+                <li>|</li>
+                <li><a href="#">微信客服</a></li>
+                <li>|</li>
+                <li><a href="#">在线客服</a></li>
+                <li>|</li>
+                <li><a href="#">电子邮件</a></li>
+              </ul>
+            </div>
+            <div>
+              <div class="hd-title"><span>APP下载</span><b>Down</b></div>
+              <ul>
+                <li><a href="#"><i class="iconfont bz-ios"></i> IOS版</a></li>
+                <li>|</li>
+                <li><a href="#"><i class="iconfont bz-android"></i> Android版</a></li>
+                <li>|</li>
+                <li><a href="#"><i class="iconfont bz-html5"></i> HTML5版</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="f-game">
+            <ul class="flex">
+              <li class="gameicon bz-dota"><i></i>Dota2</li>
+              <li class="gameicon bz-yxlm"><i></i>英雄联盟</li>
+              <li class="gameicon bz-lscs"><i></i>炉石传说</li>
+              <li class="gameicon bz-csgo"><i></i>CSGO</li>
+              <li class="gameicon bz-swxf"><i></i>守望先锋</li>
+              <li class="gameicon bz-wzry"><i></i>王者荣耀</li>
+              <li class="gameicon bz-xjzb2"><i></i>星际争霸Ⅱ</li>
+              <li class="gameicon bz-artifact"><i></i>Artifact</li>
+              <li class="gameicon bz-jdqs"><i></i>绝地求生</li>
+              <li class="gameicon bz-fbyx"><i></i>风暴英雄</li>
+              <li class="gameicon bz-smzh"><i></i>使命召唤</li>
+              <li class="gameicon bz-ch6h"><i></i>彩虹6号</li>
+              <li class="gameicon bz-hjlm"><i></i>火箭联盟</li>
+            </ul>
+          </div>
+          <div class="f-cert flex flex-pack-center"><img
+              src="data:image/png;base64,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">
+            <p>BZGAME票所提供的产品和服务，获得马耳他（Malta）颁发博彩牌照且受其监管，Copyright © BZGAME</p>
+          </div>
+        </nav>
+      </footer>
+    </section>
+    <div class="global-sider  animated fadeInRight">
+      <div class="item">
+        <div class="show"><i class="iconfont bz-weixin"></i> <span>微信</span></div>
+        <div class="hide"><span class="bor"><em>◆</em><i>◆</i></span>
+          <div class="gzh"><img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQQAAAEECAIAAABBat1dAAAFA0lEQVR4nO3dwW7bOhRAQeeh///L7eYgO6kQH0vSzsy2tRWnPhCgW5Jfv3//fgGv13+7fwA4hRggYoCIASIGiBggYoD8uvqDr6+vlT/H/3c1MBn4IBNnLxN/jQM/1dXVb97q6Us+5nvycmeAb2KAiAEiBogYIGKAiAFyOWe4snf9w5rH9mc+nh/4qfb+Y73dV8WdASIGiBggYoCIASIGiBggYoA8Hrrd2LuQ5elb3fy0E18y6+/fXP3tltec+T15uTPANzFAxAARA0QMEDFAxACZOWc405rH8BMX90wcWQysB/rJ3BkgYoCIASIGiBggYoCIAfL5c4aJztyTa+LI4odzZ4CIASIGiBggYoCIASIGiBggM4duHzPimbgmZuIJPQPO3K7r2O+JOwNEDBAxQMQAEQNEDBAxQB7PGd7uaIwrA3tv3ViwidjA9GPiSwa83VfFnQEiBogYIGKAiAEiBogYIGKAfB270mKjgWnRxF/jguN29n7AY7kzQMQAEQNEDBAxQMQAEQNkxck9a/bkevpua561L1jgMvfknr3TjCsDa6SevtXLnQG+iQEiBogYIGKAiAEiBsjleoYzz7m4sXcZwJlTjon2jmXWvJU7A0QMEDFAxAARA0QMEDFAxAB5vLhnzfjjzG281lgwv5t49bnWLOK54s4AEQNEDBAxQMQAEQNEDJDHh5V8zAKXY8+vf/qsfWBcM/Elx+7FZs4A48QAEQNEDBAxQMQAEQNEDJAVi3sGLNjnb8DE1Ug/eXq4961uuDNAxAARA0QMEDFAxAARA+TxnGGiuefXT1yVsncjracGficDn/3tlhZZ3APjxAARA0QMEDFAxAARA+TNNhG7ceYWZguuMvdZ+8BwYMFbPb3EjZuruzNAxAARA0QMEDFAxAARA0QMkMuh295jdQZMHOGdOau6Mnd5zURnnsxk6AZ/JwaIGCBigIgBIgaIGCCXm4gNzB/OPDXjY1alDFhw5svcneCesokY/BNigIgBIgaIGCBigIgBMvOwko/ZxmvgrSae8bHAmuNC9rKeAcaJASIGiBggYoCIASIGiBggjzcRe7udwiYeLn/sgOnK3j25Jl5lIkM3+DsxQMQAEQNEDBAxQMQAuZwzzLzG80fUbzflWDCumfhrHLB3A7U1/+7uDBAxQMQAEQNEDBAxQMQAEQNk5uKeiUfbz7rEzVWOHf1c2fvZ19h71JA7A0QMEDFAxAARA0QMEDFAVizu2WvvApePmWasWdyz9/AndwaIGCBigIgBIgaIGCBigPy6+oNj/8v7lavnx2+3+9WZO39dmTg0uH+3pwau7s4AEQNEDBAxQMQAEQNEDBAxQC6HblfOXHqy961eU0/umbjAZcFKnbnfh4mbiA18dncGiBggYoCIASIGiBggYoA8njPceK9VKcfuCPb0Afmayc+axV4LBiM33BkgYoCIASIGiBggYoCIASIGyMyh25kG5jgLXjKwEd3Ekd+as3MmfpABFvfAODFAxAARA0QMEDFAxAD5/DnDmU+7J75kYPox0d6rz+XOABEDRAwQMUDEABEDRAyQmXOGveeYPDXwgHzvg/M1A5OJU46Blzy9+sSFGS93BvgmBogYIGKAiAEiBogYIGKAPB66vd2KjStzd7/auPfWsUcQ7V1WNcCdASIGiBggYoCIASIGiBggX++1Igf+HXcGiBggYoCIASIGiBggYoCIAfIH+RI/DkpMJVUAAAAASUVORK5CYII=">
+            <p>微信公众号</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="show "><i class="iconfont bz-kefu"></i> <span>客服</span></div>
+        <div class="hide"><span class="bor"><em>◆</em><i>◆</i></span>
+          在线客服
+        </div>
+      </div>
+      <div class="item">
+        <div class="show"><i class="iconfont bz-qq"></i> <span>QQ</span></div>
+        <div class="hide"><span class="bor"><em>◆</em><i>◆</i></span>QQ:800170882
+        </div>
+      </div>
+      <div class="item">
+        <div class="show"><i class="iconfont bz-xiaoxi"></i> <span>邮箱</span></div>
+        <div class="hide"><span class="bor"><em>◆</em><i>◆</i></span>
+          cs@longcheng888.com
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="http://api.BZGAME.VIP/Scripts/jquery-3.3.1.min.js"></script>
+  <script src="http://api.BZGAME.VIP/Scripts/jquery.signalR-2.4.0.min.js"></script>
+  <script src="http://api.BZGAME.VIP/signalr/hubs"></script>
+  <script src="/static/waterfall/blocksit.min.js"></script>
+  <script type="text/javascript" src="/static/js/manifest.c1ef757a4a6a6a31eac2.js"></script>
+  <script type="text/javascript" src="/static/js/vendor.f8e73f790b42f56bf2eb.js"></script>
+  <script type="text/javascript" src="/static/js/app.3e0f97b6e38e37e4ab0c.js"></script>
+  <div id="eagle-drag-images" style="position: fixed; top: -100000px;"></div>
+</body>
+
+</html>

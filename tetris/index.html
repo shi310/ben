@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-touch-fullscreen" content="no"/>
+    <title>俄罗斯方块单机版</title>
+    <link rel="stylesheet" href="practice3.css">
+</head>
+<body>
+<div id=bodyBox>
+    <div id=gameBody>
+        <div id="gameBox"></div>
+        <div id=textBox>
+            <div id="infoBox">
+                <div>
+                    <div>已用时：</div>
+                    <input class="numBox" id="time" value="0" type="text" readonly="readonly" title="">
+                </div>
+                <div style="margin-top: 20px">
+                    <div>已得分：</div>
+                    <input class="numBox" id="score" value="0" type="text" readonly="readonly" title="">
+                </div>
+                <div style="margin-top: 20px">
+                    <div>最高分数：</div>
+                    <input class="numBox" id="numMax" value="2000" type="text" readonly="readonly" title="">
+                </div>
+                <div style="margin-top: 20px">
+                    <div>游戏等级：</div>
+                    <input class="numBox" id="gameLeave" value="1" type="text" readonly="readonly" title="">
+                </div>
+                <div style="margin-top: 20px">
+                    下一个方块：
+                </div>
+            </div>
+            <div id="nextBox"></div>
+        </div>
+    </div>
+</div>
+<div id="bodyArt"></div>
+<div id="bodyButton">
+    <div id="directionBox">
+        <div class="directionBox">
+            <input class="directionButton" id="buttonUp" type="button" value="↑" style="margin-top: 10px">
+        </div>
+        <div class="directionBox">
+            <input class="directionButton" id="buttonLeft" type="button" value="←" style="margin-right: 34px">
+            <input class="directionButton" id="buttonRight" type="button" value="→">
+        </div>
+        <div class="directionBox">
+            <input class="directionButton" id="buttonDown" type="button" value="↓" style="margin-bottom: 10px">
+        </div>
+    </div>
+    <div id="controlBox">
+        <input class="controlButton" id="buttonStart" type="button" value="重置">
+        <input class="controlButton" id="buttonPause" type="button" value="暂停">
+        <a class="controlButton" style="text-align: center" href="../index.html">首页</a>
+    </div>
+    <div id="rotateBox">
+        <input id="buttonRotate" type="button" value="旋转">
+    </div>
+</div>
+<script src="js/practice3Game.js"></script>
+<script src="js/practice3Local.js"></script>
+<script src="js/practice3Square.js"></script>
+<script src="js/squareFactory.js"></script>
+<script src="js/practiceRemote.js"></script>
+<script src="js/practice3.js"></script>
+</body>
+</html>

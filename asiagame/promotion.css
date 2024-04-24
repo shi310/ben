@@ -1,0 +1,53 @@
+.promotionBox{width: 100%; height: auto; margin-top: 142px;}
+.promotionBox-child{width: 1300px; height: auto; box-sizing: border-box;}
+.promotionBox-child-felxChange{display: -webkit-box; -webkit-box-pack: justify; display: flex; justify-content: space-between;}
+.promotionBox-child-left{width: 200px; background: #22262a;}
+.promotionBox-child-right{width: calc(100% - 220px); height: auto;}
+.promotionBox-child-right-huodongBox{width: 100%; height: auto; background: #22262a;}
+.marginBottom{margin-bottom: 20px;}
+.marginBottom-10{margin-bottom: 10px;}
+.promotionBox-child-left-nav{box-sizing: border-box; padding-left: 30px; width: 100%; height: 80px; border-bottom: solid 1px #303237;} 
+.bz-shijianText{margin-left: 8px; margin-top: -2px;}
+.promotionBox-child-top-nav{display: none; width: 94%; height: 40px; margin-bottom: 20px;}
+.promotionBox-child-top-navButton{background: #303237; width: 100px; height: 30px; border-radius: 4px;}
+.promotionBox-child-top-navButton:hover{background: #289273; color: #ffffff;}
+.promotionBox-child-right-huodongImg{
+    background-image: url(images/banner-2.jpg); background-repeat: no-repeat; background-size: auto 128%; 
+    background-position: top center; width: 480px; height: 180px;}
+.promotionBox-child-right-huodongText{box-sizing: border-box; padding: 20px; width: calc(100% - 480px); height: 180px;}
+.promotionBox-child-right-huodongBox-FlexChange{display: flex; display: -webkit-box;}
+
+@media only screen and (min-width: 1000px) and (max-width: 1317px){
+    .promotionBox-child{width: 100%; padding-left: 20px; padding-right: 20px;}
+    .promotionBox{margin-top: 100px;}
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1000px){
+    .promotionBox-child{width: 100%; padding-left: 20px; padding-right: 20px;}
+    .promotionBox{margin-top: 80px;}
+    .promotionBox-child-left{display: none;}
+    .promotionBox-child-right{width: 100%; height: auto;}
+    .promotionBox-child-top-nav{display: flex; display: -webkit-box; width: 60%;}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 750px){
+    .promotionBox-child{width: 100%; padding-left: 20px; padding-right: 20px;}
+    .promotionBox-child-right{width: 100%; height: auto;}
+    .promotionBox{margin-top: 80px;}
+    .promotionBox-child-top-nav{display: flex; display: -webkit-box;}
+    .promotionBox-child-right-huodongImg{width: 100%; height: 240px;}
+    .promotionBox-child-left{display: none;}
+    .promotionBox-child-right-huodongBox-FlexChange{display: -webkit-box;  -webkit-box-orient: vertical; display: flex; flex-direction: column;}
+    .promotionBox-child-right-huodongText{width: 100%; height: auto;}
+}
+
+@media only screen and (max-width: 480px){
+    .promotionBox-child{width: 100%; padding-left: 20px; padding-right: 20px;}
+    .promotionBox-child-right{width: 100%; height: auto;}
+    .promotionBox-child-left{display: none;}
+    .promotionBox{margin-top: 80px;}
+    .promotionBox-child-top-nav{display: flex; display: -webkit-box;}
+    .promotionBox-child-right-huodongImg{width: 100%; height: 180px;}
+    .promotionBox-child-right-huodongBox-FlexChange{display: -webkit-box;  -webkit-box-orient: vertical; display: flex; flex-direction: column;}
+    .promotionBox-child-right-huodongText{width: 100%; height: auto;}
+}
